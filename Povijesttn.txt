@@ -1,0 +1,51 @@
+// Ova se datoteka koristi za pohranu pitanja za Povijest tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 40 pitanja
+
+Najmanja, ali temeljna ljudska zajednica je obitelj. ; Tocno ; Netocno
+Staro kameno doba je pocelo oko 200 000 g.pr.Kr., a zavrsilo oko 10 000 g.pr.Kr. ; Tocno ; Netocno
+Ljudi koji se sele (ne zive na istom mjestu) su Nomadi. ; Tocno ; Netocno
+Dva manja razdoblja kamenog doba su starije (srednje) i mladje kameno doba. ; Tocno ; Netocno
+Najvaznije otkrice starijeg kamenog doba je vatra. ; Tocno ; Netocno
+Krapinski covjek je otprilike zivio oko 130 000 g. pr. Kr. ; Tocno ; Netocno
+Prirodni uvjeti gdje su nastale 1. drzave su u plodnim dolinama rijeka. ; Tocno ; Netocno
+Drzavu koju su imali Fenicani su Gradovi- drzave. ; Tocno ; Netocno
+Fenicanima je zaradu osiguravala trgovina. ; Tocno ; Netocno
+Zidovi su prema predaji u obecanu zemlju dosli iz Mezopotamije. ; Tocno ; Netocno
+Egipatsko pismo se zove Hijeroglif. ; Tocno ; Netocno
+Egipcani vjeruju u vise bogova. ; Tocno ; Netocno
+Donji Egipat je nastao oko delte nila. ; Tocno ; Netocno
+Piramida koja je najveca je Keopsova. ; Tocno ; Netocno
+Trojanski rat je vodjen oko 1200 g.pr.Kr. ; Tocno ; Netocno
+U Trojanskom ratu su pobijedili Grci. ; Tocno ; Netocno
+Grci su preuzeli pismo od Fenicana. ; Tocno ; Netocno
+Grcko pismo se zove Alfabet. ; Tocno ; Netocno
+Prva grcka kolonija na nasem Jadranu bila je Vis. ; Tocno ; Netocno
+Otok koji se krije pod grckim nazivom Pharos je Hvar. ; Tocno ; Netocno
+Mletacki namjesnik u Dalmaciji se zvao Knez. ; Tocno ; Netocno
+Savojska vladarska dinastija vladala je u Italiji do 1946. ; Tocno ; Netocno
+Britanski premijer u trenutku izbijanja 2. svjetskog rata je bio Winston Churchill. ; Tocno ; Netocno
+Hrvatsko- ugarska nagodba je sklopljena 1867. godine. ; Tocno ; Netocno
+Rimski zastitnici kuce i zemljista su se nazivali Penati. ; Tocno ; Netocno
+Demokratski predsjednik srusen u udaru kojeg je vodio Augusto Pinochet je Salvador Somoza. ; Tocno ; Netocno
+Hrvatski ban za cijeg je banovanja sklopljena Hrvatsko- ugarska nagodba je Levin Rauch. ; Tocno ; Netocno
+Hrvatski akademski sportski klub (HASK) osnovan je 1903. ; Tocno ; Netocno
+Arapi su zauzeli Pirenejski poluotok 711. godine. ; Tocno ; Netocno
+Dio Francuske koji je bio pod kontrolom marionetske vlade marsala Petaina je Juzni. ; Tocno ; Netocno
+Kartagu, anticki grad drzavu na sjevernoj obali Afrike unistili su Rimljani. ; Tocno ; Netocno
+Povijest smatra Aristotelovim uciteljem Platona. ; Tocno ; Netocno
+Prva zemlja u kojoj je zena postala prva predsjednica vlade je Velika Britanija. ; Netocno ; Tocno
+U 4. tisuc. pr.Kr. na podrucju juzne Mezopotamije razvija se civilizacija Sumer. ; Tocno ; Netocno
+Pirat nije Henry Cavendish. ; Tocno ; Netocno
+Tijekom XI. I XII. stoljeca se borila Venecija i Austrougarska za prevlast u Istri. ; Tocno ; Netocno
+Zadnja Ruska kraljevska dinastija je dinastija Romanov. ; Tocno ; Netocno
+Munchenski  sporazum potpisan je u rujnu 1938. ; Tocno ; Netocno
+U svibnju 1993. Eritreja je proglasila neovisnost od Etiopije. ; Tocno ; Netocno
+Nikola Tesla rodjen je 1856. u blizini Gospica u mjestu Licki Osik. ; Netocno ; Tocno

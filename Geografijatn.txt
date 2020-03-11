@@ -1,0 +1,51 @@
+// Ova se datoteka koristi za pohranu pitanja za Geografija tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 40 pitanja
+
+Glavni grad Kanade je Ottawa. ; Tocno ; Netocno
+Ulan Bator se cesto naziva najhladnijom prijestolnicom svijeta, a gl. grad je Mongolije. ; Tocno ; Netocno
+Glavni grad Australije je Melbourne. ; Netocno ; Tocno
+Caracas je glavni grad Venecuele. ; Tocno ; Netocno
+New Delhi je glavni grad Indije. ; Tocno ; Netocno
+Prijestolnica Maroka je Casablanca. ; Tocno ; Netocno
+Glavni grad Brazila je Rio de Janeiro. ; Netocno ; Tocno
+Tegucigalpa je glavni grad Kostarike. ; Netocno ; Tocno
+Glavni grad Filipina je Manila. ; Tocno ; Netocno
+Abuja je glavni grad Nigerije. ; Tocno ; Netocno
+Postupak kojim se prikupljaju osnovni podaci o stanovnistvu je popis stanovnistva. ; Tocno ; Netocno
+Glavni grad Makedonije je Skopje. ; Tocno ; Netocno
+Popis stanovnistva se obavlja svakih 10 godina. ; Tocno ; Netocno
+Trenutno na Zemlji zivi vise od 8 milijardi stanovnika. ; Netocno ; Tocno
+Prema procjeni, prije 2000 godina na Zemlji je zivjelo oko 250 000 000 stanovnika. ; Tocno ; Netocno
+Glavni uzrok brzeg porasta broja stanovnika od 17.st. je napredak higijene i medicine. ; Tocno ; Netocno
+Najveci porast broja stanovnika zabiljezen je od sredine 20.st. ; Tocno ; Netocno
+Gustoca naseljenosti izracunava se na nacin da se podijeli povrs. s njezinim br. st. ; Netocno ; Tocno
+4 najgusce naseljena podrucja na Zemlji su Juz. i ist. Az., si. Sj. Amerike i zap. Europa. ; Tocno ; Netocno
+Nenaseljeni dio kopna nazivamo subekumenom. ; Netocno ; Tocno
+Razliku izmedju br. rodj. i umrlih u odredjenom razdoblju naziva se prirodnom promjenom. ; Tocno ; Netocno
+Kroz grad Pozegu tece rijeka Drava. ; Netocno ; Tocno
+Stopa prirodne promjene se izrazava u postotcima. ; Netocno ; Tocno
+Ako na neko podrucje vise ljudi doseli nego sto ih odseli, govori se o prirodnom porastu. ; Netocno ; Tocno
+Uzroci selidbi u danasnjem svijetu su uglavnom politicke prirode. ; Netocno ; Tocno
+Dogovorena granica izmedju Europe i Azije prolazi Kavkazem i Ural te Sueskim kanalom. ; Netocno ; Tocno
+Prema povrsini i prema broju stanovnika Afrika je 3.kontinent u svijetu. ; Netocno ; Tocno
+U kontinente Novog svijeta ubrajamo Sjev. i Juz. Ameriku, Europu, Australiju. ; Netocno ; Tocno
+Oko polovine teritorija Australije zauzima reljefna cjelina Tasmanija. ; Netocno ; Tocno
+Najdulja rijeka Australije je Volga. ; Netocno ; Tocno
+Geograf koji je izracunao opseg Zemlje je Eratosten. ; Tocno ; Netocno
+Geograf koji je bio starogrc. matematicar, zemljop.,astrolog i glazb. teoret. je Ptolomej. ; Tocno ; Netocno
+Geograf koji se smatra ocem moderne geografije je Carl Ritter. ; Tocno ; Netocno
+Geograf koji je autor teorija o prostornoj i urbanoj geografiji je David Harvey. ; Tocno ; Netocno
+Geograf koji je bio 1. procelnik Katedre za geog. na Sveucilistu u Berlinu je Carl Ritter. ; Tocno ; Netocno
+Geograf koji je otac ame. geog. te je razvio shvacanje ciklusa erozije je Gerardus Mercator. ; Netocno ; Tocno
+Edward Soja je poznat po svojem radu na regionalnom razvitku. ; Tocno ; Netocno
+Geograf koji dobitnik RGS founder's medal 2003.je Michael Frank Goodchild. ; Tocno ; Netocno
+Ptolemej je pretocio grcko i rimsko znanje u knjigu Geographia. ; Tocno ; Netocno
+Geograf koji je antropogeograf i pronalazac teorije centralnog mjesta je Walter Christaller. ; Tocno ; Netocno

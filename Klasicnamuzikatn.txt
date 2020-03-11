@@ -1,0 +1,31 @@
+// Ova se datoteka koristi za pohranu pitanja za Klasicnamuzika tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 20 pitanja
+
+Punim imenom skladatelj Bach se zove Johann Sebastian. ; Tocno ; Netocno
+Skladatelj koji je skladao "Carobnu frulu" je Wolfgang Amadeus Mozart. ; Tocno ; Netocno
+Skladatelj koji je imenovan "Kraljevskim Saxonom" je Franz Schubert. ; Netocno ; Tocno
+Skladatelj koji je bio dobar prijatelj s Mozartom i ucitelj Bethoveena je Joseph Haydn. ; Tocno ; Netocno
+Skladatelj koji je u posljednjem desetljecu svog zivota ostao potpuno gluh je Franz Schubert. ; Netocno ; Tocno
+Skladatelj koji je skladao "Ratove zvijezda" je Wolfgang Amadeus Mozart. ; Netocno ; Tocno
+Skladatelj koji je skladao "Od kolijevke pa do groba" je Franz Liszt. ; Tocno ; Netocno
+Skladatelj koji se smatra najvecim romanticarem je Robert Schumann. ; Tocno ; Netocno
+Skladatelj koji je pokopan uz Bethoveena je Franz Schubert. ; Tocno ; Netocno
+Skladatelj koji je izumio simfonijske pjesme je Frederic Chopin. ; Netocno ; Tocno
+Covjek koji je Sebastianu Bachu dodijelio titulu "Kraljevski Dvorski skladatelj" je Kresimir IV. ; Netocno ; Tocno
+Skladatelj koji je skladao "Der Fliegende Hollander" je Richard Wagner. ; Tocno ; Netocno
+Skladatelj koji je jos bio i kazalisni redatelj i dirigent je Richard Wagner. ; Tocno ; Netocno
+Skladatelj koji je jos radio kao pijanist je Franz Liszt. ; Tocno ; Netocno
+Skladatelj koji je bio poznat kao Virtuoz pijanist romanticne ere je Richard Strauss. ; Netocno ; Tocno
+Skladatelj koji je osvojio nagradu Grammy je Igor Stravinski. ; Tocno ; Netocno
+Skladatelj koji je skladao "Slavonske plesove" je Petar Iljic Cajkovski. ; Netocno ; Tocno
+Puno ime skladatelja Handela je Felix Mendelssohn Handel. ; Netocno ; Tocno
+Skladatelj koji je skladao "Prvu" i "Drugu Simfoniju" je Wolfgang Amadeus Mozart. ; Netocno ; Tocno
+Skladatelj koji je do svoje smrti, neumorno i strastveno radio je Robert Schumann. ; Tocno ; Netocno

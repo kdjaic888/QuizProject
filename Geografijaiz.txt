@@ -1,0 +1,52 @@
+// Ova se datoteka koristi za pohranu pitanja za Geografija iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 40 pitanja
+
+Koji je glavni grad Kanade? ; Ottawa ; Toronto ; Vancouver ; Calgary
+Ulan Bator se cesto naziva najhladnijom prijestolnicom svijeta a glavni grad je? ; Mongolije ; Nepala ; Kambodze ; Vijetnama
+Glavni grad Australije je? ; Canberra ; Melbourne ; Adelaide ; Sydney
+Caracas je glavni grad? ; Venecuele ; Hondurasa ; Paragvaja ; Bolivije
+New Delhi je glavni grad? ; Indije ; Indonezije ; Burme ; Pakistana
+Prijestolnica Maroka je? ; Rabat ; Aleksandrija ; Agadir ; Casablanca
+Glavni grad Brazila je? ; Brasilia ; Porto Alegre ; Rio de Janeiro ; Sao Paulo
+Tegucigalpa je glavni grad? ; Hondurasa ; Kostarike ; Nikaragve ; Gvatemale
+Glavni grad Filipina je? ; Manila ; Tbilisi ; Dzakarta ; Katmandu
+Abuja je glavni grad? ; Nigerije ; Kameruna ; Mauritanije ; Bocvane
+Koji je glavni grad Makedonije? ; Skopje ; Sarajevo ; Ljubljana ; Podgorica
+Glavni uzrok brzeg porasta broja stanovnika od 17.st. je? ; Napredak higijene i medicine ; Otkrice parnog stroja ; Poboljsanje stambenih uvjeta ; Izum hladnjaka
+Nakon svakih koliko godina se broji stanovnistvo u Hrvatskoj? ; Svakih 10 godina ; Svakih 50 godina ; Svakih 20 godina ; Svakih 15 godina
+Trenutno na Zemlji zivi vise od? ; 7 milijardi stanovnika ; 9 milijardi stanovnika ; 8 milijardi stanovnika ; 10 milijardi stanovnika
+Prema procjeni, prije 2000 godina na Zemlji je zivjelo oko? ; 250000000 stanovnika ; 150000000 stanovnika ; 15000000 stanovnika ; 25000000 stanovnika
+Koji je geograf antropogeograf i pronalazac teorije centralnog mjesta? ; Walter Christaller ; Eratosten ; Ptolemej ; Karl Marx
+Postupak kojim se prikupljaju osnovni podaci o stanovnistvu je? ; Popis stanovnistva ; Popis gradjana ; Popis kucanstva ; Popis stanova
+Najveci porast broja stanovnika zabiljezen je od? ; Sredine 20.st. ; Sredine 18.st ; Sredine 17.st. ; Sredine 19.st.
+Gustoca naseljenosti izracunava se na nacin da? ; Podijeliti br. st. s povrs. na kojoj zive ; Podijeliti povrs. s br. st. ; Pom br. st. s povrs. na kojoj zive ; Pom povrs. s br. st.
+Cetiri najgusce naseljena podrucja na Zemlji su? ; Juz. i ist. Azija, Sjev.Ist. Sjev.Amerika i zap.Europa ; Juz. i zap. Az., zap.Europa i ist. i juz.Am. ; Sjev.ist. i ist.Europa, zap.Sjev.Am. i ist.Az. ; Sjev.ist. ist. A.z, zap.Europa i Sjev.Am.
+Nenaseljeni dio kopna nazivamo? ; Anekumenom ; Subekumenom ; Ekumenom ; Mikroekumenom
+Razlika izmedju br. rodj. i umr. na nekom podr. u odredjenom razdoblju naziva se? ; Prir promjenom ; Mortalitetom ; Demogr tranzicijom ; Natalitetom
+Kroz Pozegu tece rijeka? ; Orljava ; Drava ; Mura ; Sava
+Stopa prirodne promjene se izrazava u? ; Promilima ; Postotcima ; Tisucama ; Milijunima
+Ako na neko podr. vise ljudi doseli nego sto ih odseli, govorimo o? ; Prirodnom padu ; Prirodnom porastu ; Selidbenom padu ; Selidbenom porastu
+Uzroci selidbi u danasnjem svijetu su uglavnom? ; Gospodarske prirode ; Osvajacke prirode ; Zdravstvene prirode ; Politicke prirode
+Dogovorena granica izmedju Europe i Azije prolazi? ; Bospor i Dardanelli te Kavkaz i Ural ; Kavkaz i Ural te Sueski kanal ; Bospor, Dardanelli, Bab al- Mandab i Sueski kanal ; Bab al- Mandab i Sueski kanal
+Prema povrsini i prema broju stanovnika Afrika je? ; 2.kontinent u svijetu ; 4.kontinent u svijetu ; 3.kontinent u svijetu ; 1.kontinent u svijetu
+U kontinente Novog svijeta ubrajamo? ; Sj. i Juz. Amerika, Austr., Antark. ; Europa, Azija, Afrika, Antark. ; Sj. i Juz. Amerika, Europa, Austr ; Europa, Sj. i Juz. Amerika, Antark.
+Oko polovine teritorija Australije zauzima reljefna cjelina? ; Zapadnoaustralski ravnjak ; Tasmanija ; Sredisnja australska nizina ; Veliko razvodno gorje
+Najdulja rijeka Australije je? ; Murray ; Volga ; Dragi ; Mekong
+Koji je geograf izracunao opseg Zemlje? ; Eratosten ; Ptolemej ; Carl Ritter ; Karl Marx
+Koji je geograf bio starogrcki matematicar, zemljopisac, astronom i glaz. teoreticar? ; Ptolomej ; David Harvey ; Nigel Thrift ; Karl Marx
+Koji se geograf smatra ocem moderne geografije? ; Carl Ritter ; Eratosten ; Doreen Massey ; Ptolemej
+Koji je geograf i autor teorija o prostornoj i urbanoj geografiji? ; David Harvey ; Carl Ritter ; Gerardus Mercator ; Doreen Massey
+Koji je geograf bio 1. proc. Katedre za geo. na Sveucilistu u Berlinu? ; Carl Ritter ; William Morris Davis ; Walter Christaller ; Doreen Massey
+Koji je geograf otac am. geo. te je razvio shvacanje ciklusa erozije? ; William Morris Davis ; Gerardus Mercator ; Ptolomej ; Doreen Massey
+Edward Soja je? ; Poznat po svojem radu ; Marksisticki geograf ; Zacetnik nereprezentacionalne teorije ; Poznat po otkricu
+Koji je geograf istaknuti strucnjak u GIS-u i dobitnik RGS founder's medal? ; Michael Frank Goodchild ; David Harvey ; Nigel Thrift ; Doreen Massey
+Ptolemej je? ; Prikupio grcko i rimsko znanje ; Smatra se ocem moderne geografije ; Antropogeograf ; Pronalazac teorije centralnog mjesta
+

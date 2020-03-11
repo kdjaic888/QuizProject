@@ -1,0 +1,41 @@
+// Ova se datoteka koristi za pohranu pitanja za Zivotinje iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 30 pitanja
+
+Koliko medvjed ima zuba? ; 42 ; 50 ; 38 ; 56
+Koje vrste pasa najcesce grizu ljude? ; Vucjaci ; Boo ; Pekinezeri ; Aljaski malamut
+Koliko razlicitih zvukova mogu macke proizvesti? ; Oko 100 ; 1 ; Negdje oko 60-65 ; 2
+Ko bolje cuje? ; Macka ; Pas ; Guster ; Pauk
+Kako Britanci i Australijanci vide crnu macku? ; Kao znak srece ; Kao znak nesrece ; Kao obicnu macku ; Nista od navedenog
+Koji je prosjecni zivotni vijek zeca koji zivi u kuci? ; 7-10 god. ; 5-6 god. ; 4-7 god. ; 10-20 god.
+Koja se zivotinja smatra covjekovim najboljim prijateljem? ; Pas ; Macka ; Konj ; Zmija
+Kakve su lisice? ; Druzeljubive ; Opasne ; Neprijateljski nastrojene ; Lukave
+Koliko vrsta zeceva i kunica postoji? ; Oko 50 ; 30 ; 70 ; 100
+Novozelandska ptica duga kljuna dijeli ime s jednim popularnim egzoticnim vocem? ; Kiwi ; Mango ; Guava ; Mandarina
+Kako je ime velike macke koja se moze vidjeti i u Hrvatskoj? ; Euroazijski ris ; Euroazijski ocelot ; Euroazijski jaguar ; Euroazijska macka
+Zivotinja koja nastanjuje Indoneziju, ukljucujuci i otok po kojem je dobila ime je? ; Komodski varan ; Galapagoski legvan ; Sundski guster ; Komodski guster
+Kako se zove zivotinja koja je nacionalni simbol Afganistana i Pakistana? ; Snjezni leopard ; Olacasti leopard ; Kuguar ; Snjezni kuguar
+Mesojed tobolcar dobio je ime prema australskoj saveznoj drzavi iz koje potjece? ; Tasmanski vrag ; Queenslandska neman ; Juznoastralski dingo ; Tasmanska neman
+Zivotinja iz porodice deva naseljava juznoamericke Ande? ; Alpaka ; Ljama ; Tapir ; Juznoamericka ljama
+Ptica koja je nacionalni simbol Sjedinjenih Americkih Drzava? ; Bjeloglavi orao ; Bjeloglavi sokol ; Bjeloglavi sup ; Bjeloglavi mesojed
+Simpaticna zivotinja stanovnik je sjevernog Atlantskog oceana i Arktika? ; Grenlandski tuljan ; Sjeverni morski slon ; Sredozemna medvjedica ; Morsko-sredozemni slon
+Rijeka Nil u Africi dom je grabezljivaca. Oni su? ; Nilski krokodili ; Nilski aligatori ; Nilski gusteri ; Nilski dazdevnjaci
+Zivi u azijskim kisnim sumama na nadmorskim visinama do 2000 metara? ; Kraljevska kobra ; Planinski zutokrug ; Ridjovka ; Poskok
+Koja zivotinja ima mladunce stene? ; Pas ; Patka ; Konj ; Macka
+Najveca zivotinja na planeti je? ; Plavetni kit ; Zirafa ; Krava ; Slon
+Najbrza zivotinja je? ; Gepard ; Konj ; Pas ; Tigar
+Koja zivotinja leze najvece jaje? ; Noj ; Golub ; Patka ; Kokos
+Koja od navedenih ptica, na jesen seli na jug? ; Roda ; Golub ; Vrabac ; Vrana
+Koja od navedenih zivotinja je najvisa? ; Slon ; Zirafa ; Krava ; Noj
+Koja od navedenih zivotinja je aktivna nocu? ; Sismis ; Guska ; Labud ; Lisica
+Gdje zive pingvini? ; Na Antartiku ; U prasumi ; U pustinji ; U Australiji
+Koja zivotinja zivi pod zemljom? ; Krtica ; Puz ; Leptir ; Pauk
+Koja zivotinja nosi kucicu na ledjima? ; Kornjaca ; Zec ; Lisica ; Guster
+Koje povrce zec najcesce jede? ; Mrkvu ; Krumpir ; Papriku ; Rajcicu

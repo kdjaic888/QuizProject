@@ -1,0 +1,41 @@
+// Ova se datoteka koristi za pohranu pitanja za Zivotinje tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 30 pitanja
+
+Medvjed ima 42 zuba. ; Tocno ; Netocno
+Vrste pasa koje najcesce grizu ljude su vucjaci. ; Tocno ; Netocno
+Macke mogu proizvesti oko 100 razlicitih zvukova. ; Tocno ; Netocno
+Macka cuje bolje od psa. ; Tocno ; Netocno
+Britanci i Australijanci vide crnu macku kao obicnu macku. ; Netocno ; Tocno
+Prosjecni zivotni vijek zeca koji zivi u kuci je 4-7 god. ; Netocno ; Tocno
+Zivotinja koja se smatra covjekovim najboljim prijateljem je macka. ; Netocno ; Tocno
+Lisice su druzeljubive. ; Tocno ; Netocno
+Vrsta zeceva i kunica postoji 70. ; Netocno ; Tocno
+Novozelandska ptica duga kljuna dijeli ime s jednim egzoticnim vocem. Ona se zove Guava. ; Netocno ; Tocno
+Ime velike macke koja se moze vidjeti i u Hrvatskoj je Euroazijski jaguar. ; Netocno ; Tocno
+Zivotinja koja nastanjuje Indoneziju (otok). Rijec je o Galapagoskom legvanu. ; Netocno ; Tocno
+Zivotinja koja je nacionalni simbol Afganistana i Pakistana je Kuguar. ; Netocno ; Tocno
+Mesojed tobolcar dobio je ime prema australskoj saveznoj drzavi. Ime mu je Juznoastralski dingo. ; Netocno ; Tocno
+Zivotinja iz porodice deva naseljava juznoamericke Ande. Ime joj je Ljama. ; Netocno ; Tocno
+Ptica koja je nacionalni simbol SAD-a. Ime joj je Bjeloglavi sokol. ; Netocno ; Tocno
+Zivotinja koja je stanovnik sjev. Atlantskog oceana i Arktika. Zove se Sredozemna medvjedica. ; Netocno ; Tocno
+Rijeka Nil u Africi dom je grabezljivaca. Oni su Nilski aligatori. ; Netocno ; Tocno
+Zivi u azijskim kisnim sumama do 2000 metara. Ona je Planinski zutokrug. ; Netocno ; Tocno
+Zivotinja koja ima mladunce stene je patka. ; Netocno ; Tocno
+Najveca zivotinja na planeti je zirafa. ; Netocno ; Tocno
+Najbrza zivotinja je pas. ; Netocno ; Tocno
+Zivotinja koja leze najvece jaje je golub. ; Netocno ; Tocno
+Ptica koja na jesen seli na jug je golub. ; Netocno ; Tocno
+Zivotinja koja je najvisa je slon. ; Tocno ; Netocno
+Zivotinja koja je aktivna nocu je labud. ; Netocno ; Tocno
+Pingvini zive u prasumi. ; Netocno ; Tocno
+Zivotinja koja zivi pod zemljom je puz. ; Netocno ; Tocno
+Zivotinja koja nosi kucicu na ledjima je lisica. ; Netocno ; Tocno
+Povrce koje zec najcesce jede je radic. ; Netocno ; Tocno

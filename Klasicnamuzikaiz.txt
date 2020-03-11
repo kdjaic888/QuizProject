@@ -1,0 +1,31 @@
+// Ova se datoteka koristi za pohranu pitanja za Klasicnamuzika iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 20 pitanja
+
+Kako se punim imenom zove skladatelj Bach? ; Johann Sebastian ; Wolfgang Amadeus ; Ludwig van ; Richard Wagner
+Tko je skladao Carobnu frulu? ; Wolfgang Amadeus Mozart ; Ludwig van Beethoven ; Richard Wagner ; Robert Schumann
+Tko je imenovan kraljevskim Saxonom? ; Richard Wagner ; Robert Schumann ; Franz Schubert ; Wolfgang Amadeus Mozart
+Tko je bio dobar prijatelj s Mozartom i ucitelj Bethoveena? ; Joseph Haydn ; Richard Wagner ; Johannes Brahms ; Franz Schubert
+Tko je u posljednjem desetljecu svoga zivota ostao potpuno gluh? ; Ludwig van Beethoven ; Franz Schubert ; Franz Liszt ; Johannes Brahms
+Tko je skladao Ratove zvijezda? ; Johann Sebastian Bach ; Wolfgang Amadeus Mozart ; Franz Schubert ; Robert Schumann
+Tko je skladao Od kolijevke pa do groba? ; Franz Liszt ; Georg Friedrich Handel ; Robert Schumann ; Joseph Haydn
+Koji skladatelj se smatra najvecim romanticarem? ; Robert Schumann ; Johannes Brahms ; Joseph Haydn ; Franz Schubert
+Koji je skladatelj pokopan uz Bethoveena? ; Franz Schubert ; Georg Friedrich Handel ; Petar Iljic Cajkovski ; Joseph Haydn
+Tko je izumio Simfonijske pjesme? ; Franz Liszt ; Frederic Chopin ; Igor Stravinski ; Joseph Haydn
+Tko je Johannu Sebastianu Bachu dodijelio titulu Kraljevski Dvorski skladatelj? ; August III ; Kresimir IV ; Trpimir ; Drzislav
+Tko je skladao Der Fliegende Hollander? ; Richard Wagner ; Antonin Dvorak ; Giuseppe Verdi ; Joseph Haydn
+Koji je skladatelj jos bio i kazalisni redatelj i dirigent? ; Richard Wagner ; Johannes Brahms ; Gustav Mahler ; Joseph Haydn
+Koji je skladatelj jos radio kao pijanist? ; Franz Liszt ; Antonin Dvorak ; Felix Mendelssohn-Bartholdy ; Joseph Haydn
+Koji je skladatelj bio poznat kao virtuoz pijanist romanticne ere? ; Frederic Chopin ; Dmitri Shostakovich ; Richard Strauss ; Antonin Dvorak
+Koji je skladatelj osvojio nagradu Grammy? ; Igor Stravinski ; Sergei S. Prokofiew ; Dmitri Shostakovich ; Antonin Dvorak
+Tko je skladao Slavonske plesove? ; Antonin Dvorak ; Felix Mendelssohn-Bartholdy ; Petar Iljic Cajkovski ; Franz Liszt
+Kako se punim imenom zove skladatelj Handel? ; Georg Friedrich Handel ; Felix Mendelssohn Handel ; Dmitri Shostakovich Handel ; Franz Liszt
+Tko je skladao Prvu i Drugu Simfoniju? ; Ludwig van Beethoven ; Richard Wagner ; Wolfgang Amadeus Mozart ; Franz Liszt
+Koji je skladatelj do svoje smrti, do 46. godine, neumorno i strastveno radio? ; Robert Schumann ; Franz Schubert ; Ludwig van Beethoven ; Franz Liszt

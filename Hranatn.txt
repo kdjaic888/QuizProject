@@ -1,0 +1,31 @@
+// Ova se datoteka koristi za pohranu pitanja za Hrana tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 20 pitanja
+
+Gluten je protein u zitaricama. ; Tocno ; Netocno
+Namirnica koja sadrzi najvise vitamina C je paprika. ; Tocno ; Netocno
+Brzo smrznuta hrana sadrzi vrlo malo hranjivih tvari. ; Tocno ; Netocno
+Svakog dana se preporuca popiti 5 salica kave. ; Netocno ; Tocno
+Namirnica koja sadrzi najmanje vitamina C je mrkva. ; Tocno ; Netocno
+Nije preporucljiva dijeta pizza za rucak. ; Tocno ; Netocno
+Prema principu zdrave prehrane, obrok se sastoji od 15- 30%masti 55- 75%pro. i 10- 15%uglj. ; Netocno ; Tocno
+Najnezdravija namirnica je pomfrit. ; Netocno ; Tocno
+Vitamini A, D, E, K su topljivi u vodi. ; Netocno ; Tocno
+Preporuca se dnevno unijeti 4 obroka. ; Netocno ; Tocno
+Kalorija je osnovna jedinica hranjivog sastojka na jedan gram hrane. ; Netocno ; Tocno
+Piramida hrane je graficki prikaz prehrambenih vrijednosti. ; Netocno ; Tocno
+Hranjive tvari koje trebaju biti najzastupljenije u prehrani su proteini. ; Netocno ; Tocno
+Priblizno je potrebno zenskoj osobi s 65kg koja se bavi umjer. tjel. aktivnoscu 3000 kcal. ; Netocno ; Tocno
+Serviranje voca i povrca je preporucljivo konzumirati od 2 do 4. ; Netocno ; Tocno
+Na vrhu piramide pravilne prehrane se nalaze masti i slatkisi. ; Tocno ; Netocno
+Vitamin koji se stvara u kozi pod utjecajem suncevih zraka je vitamin A. ; Netocno ; Tocno
+Preporuka se da se tokom dana ima 3 obroka i 2 medjuobroka. ; Tocno ; Netocno
+Kljuc pravilne prehrane je izbaciti masnoce iz prehrane. ; Netocno ; Tocno
+Prema preporukama dnevno se mora unositi 15 casa vode. ; Netocno ; Tocno

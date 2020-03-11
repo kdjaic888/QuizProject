@@ -1,0 +1,31 @@
+// Ova se datoteka koristi za pohranu pitanja za Hrana iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 20 pitanja
+
+Sto je gluten? ; Gluten je protein u zitaricama ; Gluten je skrob u zitaricama ; Gluten je biljno vlakno ; Gluten je skrobna kiselina
+Koja od sljedecih namirnica sadrzi najvise vitamina C? ; Paprika ; Limun ; Mango ; Grejp
+Koje od sljedeceg je netocno? ; Smrz. hrana sadrzi vrlo malo hranj. tvari ; Jaja su losa ; Kava se ne preporucava ; Jesti meso svaki dan
+Koliko salica kave se preporuca popiti svakog dana? ; 2-3 ; nijedna ; 5 ; 6-7
+Koja od sljedecih namirnica sadrzi najvise vitamina c? ; Kelj ; Mrkva ; Limun ; Pizza
+Koji od obroka je najgori za dijetu? ; Pizza za rucak ; Hamurger i pomfrit ; Sendvic koji spremamo tijekom 5 minuta pauze ; Cevapi
+Prema principu zdrave prehrane, obrok se sastoji od? ; 15- 30%m 10- 15%pr 55- 75%uglj ; 55- 75%m 10- 15%pr 15- 30%uglj ; 15- 30%m 55- 75%pr 10- 15%uglj ; sve tvari 50%
+Koja je najnezdravija namirnica od sljedecih? ; Pomfrit ; Pohana piletina ; Pecena svinjetina ; Sladoled
+Vitamini A, D, E, K su topljivi u? ; Oni su topljivi u masti ; Topljivi su u vodi ; Sve netocno ; Topljivi i u masti i u vodi
+Koliko se obroka preporucuje za konzumiranje dnevno? ; 5 ; 3 ; 4 ; 1-2
+Sto je kalorija? ; Energetska jedinica ; Mjerna jedinica ; Osnovna jedinica ; Nista od navedenog
+Sto je piramida hrane? ; Najprikladniji nacin razvrstavanja ; Graficki prikaz prehr. vrijed. ; Klasifikacija osnovnih skupina hrane ; Nista od navedenog
+Koje hranjive tvari trebaju biti najzastupljenije u tvojoj prehrani? ; Ugljikohidrati ; Masti ; Proteini ; Kalorije
+Koliko je priblizno kcal potrebno zenskoj osobi s 65 kg koja se bavi umjerenom tjel. aktivnoscu? ; 2000 kcal ; 1000 kcal ; 3000 kcal ; 500 kcal
+Koliko serviranja voca i povrca je preporucljivo da se dnevno konzumira? ; 3 do 5 ; 1 do 2 ; 2 do 4 ; nijedan
+Sto se nalazi na vrhu piramide pravilne prehrane? ; Masti i slatkisi ; Mlijeko ; Meso ; Kruh
+Koji vitamin se stvara u kozi pod utjecajem suncevih zraka? ; Vitamin D ; Vitamin A ; Vitamin C ; Vitamin E
+Koliko je preporucljivo imati dnevnih obroka? ; 3 obroka i 2 medjuobroka ; 2 obroka ; Nije vazno ; 5 obroka
+Kljuc pravilne prehrane je? ; Umjerenost i raznolikost ; Ne mijesati proteine i ugljikohidrate ; Izbaciti masnoce iz prehrane ; Popiti 10 casa vode
+Prema preporukama dnevno se mora unositi? ; 8 do 10 casa vode ; 5 casa vode ; 15 casa vode ; 2-3 case vode

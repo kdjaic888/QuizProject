@@ -1,0 +1,41 @@
+// Ova se datoteka koristi za pohranu pitanja za Prometniznakovi tn kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 30 pitanja
+
+Radnje koje vozilom ne smijete ciniti u ulici s jednosmj. prometom je voziti u suprotnom smjeru. ; Tocno ; Netocno
+Djeca najcesce reagiraju u prometu spontano i nepredvidivo. ; Tocno ; Netocno
+Mora se ciniti za voznje u koloni odrzavati potreban razmak izmedju vozila. ; Netocno ; Tocno
+Svjetla koja vozac motornog vozila upotrebljava za osvijetljavanje ceste su duga svjetla. ; Tocno ; Netocno
+Priblizavate se zavoju. Brzinu morate smanjiti. To ovisi o vrsti i stanju kolnika. ; Netocno ; Tocno
+Vozite po magli u koloni vozila. Svjetla koja necete korisiti su straznja svjetla za maglu. ; Tocno ; Netocno
+Zimskom opremom na vozilu se smatra sve cetiri zimske gume na vozilu. ; Tocno ; Netocno
+Najmanji razmak koji morate ostaviti ako zelite parkirati vozilo je 8 m. ; Netocno ; Tocno
+Na cesti je zaustavljeno vozilo. Udaljenost na kojoj morate postaviti trokut je min. 100m. ; Tocno ; Netocno
+Vozila koja smijete pretjecati na prijelazu ceste preko zeljeznicke pruge je bicikil. ; Tocno ; Netocno
+U prometu na cesti prestaje vrijediti zabrana na prometnom znaku prolaskom prvog sljedeceg raskrizja. ; Netocno ; Tocno
+Ako vozilom vucete drugo neispravno vozilo, najvecom brzinom kojom smiju voziti vozila je 30 km/h. ; Netocno ; Tocno
+Slucajevi u kojim bocni vjetar moze biti jako opasan je kod voznje preko nadvoznjaka. ; Netocno ; Tocno
+Sankcija koja slijedi ako prekoracite ogranicenje >50km/h na cesti izvan naselja su 2 kaz.boda. ; Netocno ; Tocno
+Morate voziti u samom raskrizju onom prometnom trakom u koju se razvrstate. ; Tocno ; Netocno
+Pravilo desne strane znaci da vozila koja se prestrojavaju iz desne u lijevu traku treba propustiti. ; Netocno ; Tocno
+Kada je netko defanzivni vozac, to znaci da ne vozi aktivno. ; Netocno ; Tocno
+Vozilo koje nije vozilo s pravom prednosti je vozilo sanitetskog prijevoza. ; Netocno ; Tocno
+Sirina vidnog polja pri povecanim brzinama se povecava. ; Netocno ; Tocno
+Svijetla koja moraju biti upaljena po danu tijekom zimskog racunanja vremena su duga svijetla. ; Netocno ; Tocno
+Naisli ste na prometnu nesrecu. Prvu pomoc pruzate samo ako osoba nije tesko ozljedjena. ; Netocno ; Tocno
+Djeca u prometu su odgovorni postivati starije sudionike u prometu i ne im ometati putovanje. ; Netocno ; Tocno
+Ako vozimo 50km/h preko dopustene brzine, kazna je do 2000 kuna kazne i 2 neg. boda. ; Netocno ; Tocno
+Ugrozavanje prometa u prometu je sudjelovanje zbog kojeg su svi na kolniku sigurni u voznji. ; Netocno ; Tocno
+Vozac smije tijekom upravljanja vozilom koristiti mobitel ako upotrebljava napravu. ; Netocno ; Tocno
+Vozac treba postupiti pod utjecajem alkohola tako da koristi javni prijevoz. ; Netocno ; Tocno
+Vozac moze utjecati na produljenje zaustavnog puta vozila ako vozi smanjenom brzinom. ; Netocno ; Tocno
+Sirina vidnog polja vozaca je prostor koji vozac vidi iza svog vozila. ; Netocno ; Tocno
+Vozaci bicikla su opasni u prometu jer lako mogu izgubiti ravnotezu ili stabilnost. ; Netocno ; Tocno
+Najveca dopustena brzina kretanja vozila na autocesti je 100 km / h. ; Netocno ; Tocno

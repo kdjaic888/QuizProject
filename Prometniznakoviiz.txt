@@ -1,0 +1,41 @@
+// Ova se datoteka koristi za pohranu pitanja za Prometniznakovi iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 30 pitanja
+
+Koje radnje vozilom ne smijete ciniti u ulici s jednosmj. prometom? ; Voziti u suprotnom smjeru ; Voziti unaprijed ; Polukruzno okretati vozilo ; Voziti unatrag
+Kako djeca najcesce reagiraju u prometu? ; Spontano i nepredvidivo ; U skladu s propisima ; Skoncentrirano ; Razborito i stalozeno
+Sto morate ciniti za voznje u koloni? ; Voziti brzinom kojom vozi kolona ; Probati prestici cijelu kolonu ; Biti spreman na iznenadna kocenja ; Odrzavati potreban razmak
+Koja svjetla vozac motornog vozila upotrebljava za osvijetljavanje ceste? ; Duga ; Nijedna svjetla od navedenih ; Pozicijska ; Kratka ili dnevna
+Priblizavate se zavoju. Brzinu morate smanjiti. O cemu to ovisi? ; O polumjeru i preglednosti zavoja ; O vrsti i stanju kolnika ; O vrsti automobila ; O vrsti i stanju guma
+Vozite po magli u koloni vozila. Koja svjetla necete korisiti? ; Straznje svjetlo za maglu ; Nista od navedenog ; Kratka svjetla ; Duga svjetla
+Sto se smatra zimskom opremom na vozilu? ; Sve cetiri zimske gume na vozilu ; Radijalne gume na straznjim kotacima ; Radijalne gume na prednjim kotacima ; Ljetne gume s dubinom profila i lancima
+Koji najmanji razmak morate ostaviti od pjesackog ako zelite parkirati vozilo? ; 5 metara ; 10 metara ; 8 metara ; 15 metara
+Na kojoj udaljenosti morate postaviti sigurnosni trokut iza zaustavljenog vozila? ; Min 100m iza vozila ; Min 80m iza vozila ; Min 120m iza vozila ; Min 50m iza vozila
+Koja vozila smijete pretjecati na prijelazu ceste preko zeljeznicke pruge? ; Bicikil ; Traktor bez prikljucnog vozila ; Motocikl bez bocne prikolice ; Moped
+Kada u prometu na cesti prestaje vrijediti zabrana na prometnom znaku? ; Prolaskom pored znaka prestanka ; Nista od navedenog ; Prolaskom prvog slijedeceg raskrizja ; Nakon sat vremena voznje od znaka
+Ako vozilom vucete jedno neispr. vozilo, kojom najvecom brz. se smiju voziti vozila? ; 40 km na sat ; 50 km na sat ; 60 km na sat ; 30 km na sat
+U kojim slucajevima bocni vjetar moze biti jako opasan? ; Kod voznje preko mostova ; Kod voznje na prijevojima ; Kod voznje u naselju ; Kod voznje preko nadvoznjaka
+Koja sankcija slijedi ako prekoracite ogranicenje za vise od 50 km/sat na cesti izvan naselja? ; 3 kaznena boda ; 2 kaznena boda ; Kazna od 200000 kn ; Oduzimanje vozacke dozvole na 3 mjeseca
+Kako morate voziti neposredno ispred raskrizja i u samom raskrizju? ; Gdje si se razvrstao ; Nista od navedenog ; Ne mijenjati traku ; Mijenjati traku
+Pravilo desne strane znaci da? ; Prednost prolaska ima vozilo s desne strane. ; Vozila iz desne u lijevu traku treba propustiti. ; Djeca u sjedalici sjede na desnoj strani ; Prednost prolaska ima vozilo s lijeve strane.
+Sto znaci kada je netko defanzivni vozac? ; Da predvidja nacin ponasanja ostalih sudionika ; Da se striktno drzi propisanih pravila ; Da ne vozi aktivno ; Da se ne drzi propisanih pravila
+Koje vozilo nije vozilo s pravom prednosti? ; Svi su u prednosti ; Vozilo hitne pomoci ; Vatrogasno vozilo ; Vozilo sanitetskog prijevoza
+Sto se dogadja sa sirinom vidnog polja pri povecanim brzinama? ; Sirina vidnog polja se smanjuje. ; Sirina vidnog polja ostaje ista. ; Sirina vidnog polja se povecava. ; Nista od navedenog
+Koja svijetla moraju biti upaljena po danu tijekom zime? ; Dnevna ili kratka svijetla ; Duga svijetla ; Ne treba imati upaljena svijetla, dan je ; Pozicijska svijetla
+Naisli ste na prometnu nesrecu. Prvu pomoc pruzate ako? ; Ste naisli. ; Nema drugih osoba u blizini. ; Je netko vec pozvao hitnu pomoc. ; Jos nitko nije pozvao hitnu pomoc.
+Djeca u prometu? ; Su najugrozenija skupina ; Su ravnopravni sudionici ; Su odgovorni postivati starije sudionike ; Ne bi trebala sudjelovati bez roditelja
+Ako vozimo 50 km/h preko dopustene brzine, kazna je? ; Do 15000kn kazne ; Upozorenje ako nismo imali prekrsaje u godinu dana. ; Do 500kn kazne i 1 neg bod. ; Do 2000 kn kazne i 2 neg boda.
+Sto je ugrozavanje prometa? ; Nastupila je opasnost nastanka prometne nesrece ; Svi su na kolniku sigurni u voznji ; Nista od navedenog ; Nekoga se prisiljava na promjenu dotadasnjeg nacina sudjelovanja
+Smije li vozac tijekom upravljanja vozilom koristiti mobitel? ; Ne smije ; Smije ako i ne upotrebljava napravu bez uporabe ruku ; Smije ako upotrebljava napravu bez uporabe ruku ; Smije samo igrati igrice
+Kako treba postupiti vozac pod utjecajem alkohola? ; Ne smije upravljati vozilom ; Treba koristiti javni prijevoz ; Treba se voziti oprezno ; Smije upravljati vozilom, ali samo u prisutnosti starijeg vozaca
+Kojim postupcima vozac moze utjecati na produljenje zaustavnog puta vozila? ; Ako vozi pod utjecajem alkohola ; Ako nije koncentriran na voznju ; Ako vozi smanjenom brzinom ; Nista od navedenog
+Sto je sirina vidnog polja vozaca? ; Prostor koji vozac vidi bez pomicanja ociju ; Prostor koji vozac vidi iza svog vozila ; Prostor koji vozac ne vidi ; Prostor mrtvog kuta
+Zasto su vozaci bicikla opasni u prometu? ; Mnogi mijenjaju smjer voznje ; Cesto voze sporo ; Zato sto koriste drugacije prijevozno sredstvo ; Lako mogu izgubiti ravnotezu
+Kolika je najveca dopustena brzina kretanja vozila na autocesti? ; 130 km / h ; 80 km / h ; 20 km / h ; 100 km / h

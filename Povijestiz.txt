@@ -1,0 +1,51 @@
+// Ova se datoteka koristi za pohranu pitanja za Povijest iz kviz
+
+// Komentari su oznaceni s "//"
+// Linije mogu oznacavati i prazno
+
+// Format pitanja je:
+// pitanje ; tocan odgovor ; netocan odgovor ; netocan odgovor ; netocan odgovor
+// Svaki je pojam odvojen dvotockom
+
+// datoteka sadrzi 40 pitanja
+
+Kako se zove najmanja i temeljna ljudska zajednica? ; Obitelj ; Opcina ; Rod ; Prijatelj
+Kada je pocelo, a kada zavrsilo staro kameno doba? ; 200000 g.pr.Kr.-10000 g.pr.Kr. ; 100000 g.pr.Kr.-2000 g.pr.Kr. ; Nista od navedenog ; 10000 g.pr.Kr.-1000 g.pr.Kr.
+Kako zovemo ljude koji se sele (ne zive na istom mjestu)? ; Nomadi ; Stocari ; Ratari ; Pastiri
+Na koja dva manja razdoblja dijelimo kameno doba? ; Starije i mladje ; Rano i kasno ; Gornje i doljnje ; Istocno i zapadno
+Najvaznije otkrice starijeg kamenog doba je: ; Vatra ; Loncarsko kolo ; Glina ; Ugljen
+Kada je (otprilike) zivio Krapinski covjek? ; Oko 130000 g.pr.Kr. ; Prije milijun godina ; Oko 30000 g.pr.Kr. ; Prije 1000 godina
+U kakvim su prirodnim uvjetima nastale prve drzave i visoke kulture? ; U plodnim dolinama rijeka ; Na vrhovima planina ; Na otocima ; U pustinjama
+Kakvu su drzavu imali Fenicani? ; Gradove- drzave ; Vise carstva ; Veliko carstvo ; Jedno carstvo
+Fenicanima je zaradu osiguravala? ; Trgovina ; Poljoprivreda ; Ratarstvo ; Slikarstvo
+Zidovi su prema predaji u obecanu zemlju dosli iz? ; Mezopotamije ; Brazila ; Egipta ; Urugvaja
+Kako zovemo egipatsko pismo? ; Hijeroglifi ; Klinasto pismo ; Sarkofag ; Grcko pismo
+U koliko bogova vjeruju Egipcani? ; Vise ; Jedan ; Dva ; Nijedan
+Gdje je nastao Donji Egipat? ; Oko delte Nila ; Na krajevima Nila ; Na izvoru Nila ; U Mezopotamiji
+Koja je najveca piramida? ; Keopsova ; Ramzesova ; Mikerinova ; Euklidova
+Kada je vodjen Trojanski rat? ; Oko 1200 g.pr.Kr. ; Oko 900 g.pr.Kr. ; Oko 1500 g.pr.Kr. ; Oko 1000 g.pr.Kr.
+Tko je pobijedio u Trojanskom ratu? ; Grci ; Trojanci ; Fenicani ; Arapi
+Grci su preuzeli pismo od? ; Fenicana ; Egipcana ; Tracana ; Arapa
+Kako se zove grcko pismo? ; Alfabet ; Glagoljica ; Cirilica ; Latinica
+Prva grcka kolonija na nasem Jadranu bila je? ; Vis ; Krk ; Solin ; Hvar
+Otok koji se krije pod grckim nazivom Pharos je? ; Hvar ; Brac ; Susak ; Krk
+Kako se zvao mletacki namjesnik u Dalmaciji? ; Knez ; Ban ; Providur ; Duzd
+Savojska vladarska dinastija vladala je u Italiji do? ; 1946. ; 1918. ; 1923. ; 1943.
+Tko je bio britanski premijer u trenutku izbijanja 2.svjetskog rata? ; Winston Churchill ; Lloyd George ; Margaret Thatcher ; Neville Chamberlain
+Koje je godine sklopljena Hrvatsko- ugarska nagodba? ; 1867. ; 1869. ; 1865. ; 1868.
+Kako su se nazivali rimski zastitnici kuce i zemljista? ; Penati ; Edili ; Lari ; Geniji
+Koji je predsjednik srusen u udaru kojeg je vodio Augusto Pinochet? ; Salvador Somoza ; Salvador Allende ; Salvador Franco ; Salvador Markos
+Hrvatski ban za cijeg je banovanja sklopljena Hrvatsko- ugarska nagodba je? ; Levin Rauch ; Koloman Bedekovic ; Ladislav Pejacevic ; Antun Vakanovic
+Hrvatski akademski sportski klub (HASK) osnovan je? ; 1903. ; 1900. ; 1906. ; 1910.
+Koje godine arapi zauzimaju Pirenejski poluotok? ; 711. ; 511. ; 911. ; 1111.
+Koji je dio Francuske bio pod kontrolom marionetske vlade marsala Petaina? ; Juzni ; Istocni ; Zapadni ; Sjeverni
+Kartagu, anticki grad drzavu na sjevernoj obali Afrike unistili su? ; Rimljani ; Fenicani ; Arapi ; Eduini
+Koga povijest smatra Aristotelovim uciteljem? ; Platon ; Euklid ; Pitagora ; Sokrat
+Prva zemlja u kojoj je zena postala prva predsjednica vlade je? ; Sri Lanka ; Indija ; Pakistan ; Velika Britanija
+U 4.tis.pr.Kr. na podrucju juz.Mezopotamije razvija se civilizacija? ; Sumer ; Kartaga ; Perzija ; Mikena
+Tko od navedenih nije poznati pirat? ; Henry Cavendish ; William Kidd ; Edward Teach ; Jean Lafitte
+Tko se borio tijekom XI. I XII. stoljeca za prevlast u Istri? ; Venecija i Austrougarska ; Venecija i Karantanija ; Bizant i Karantanija ; Bizant i Venecija
+Zadnja Ruska kraljevska dinastija je dinastija? ; Romanov ; Opolezyk ; Romanovic ; Anzuvinci
+Munchenski  sporazum potpisan je u? ; Rujnu 1938. ; Ozujku 1938. ; Studenom 1938. ; Sijecnju 1939.
+U svibnju 1993. Eritreja je proglasila neovisnost od? ; Etiopija ; Portugal ; Velika Britanija ; Sudan
+Nikola Tesla rodjen je 1856. u blizini Gospica u mjestu? ; Smiljan ; Slunj ; Licki Osik ; Ostrvica
