@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PozSkladController">
+   <children>
+      <Label layoutX="175.0" layoutY="8.0" text="Poznati skladatelji" textFill="#ee0808" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="369.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="369.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="btnOdjava" layoutX="120.0" layoutY="365.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPovratak" layoutX="482.0" layoutY="362.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#e80909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TabPane layoutY="48.0" prefHeight="311.0" prefWidth="600.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Johann Sebastian Bach">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="119.0" fitWidth="137.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/sejoh.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="137.0" layoutY="13.0" prefHeight="122.0" prefWidth="449.0" text="Rođen 1685, Bach je bio njemački kompozitor i glazbenik orguljaš. U dobi od 51 &#10;August III dodijelio mu titulu &quot;Kraljevski Dvorski skladatelj&quot;. &#10;&#10;Njegovo zdravlje i vizija nije uspio u svojim kasnijim godinama i umro je u 1750.&#10;&#10;Njegove skladbe uključuju:" />
+                        <TextArea layoutX="14.0" layoutY="141.0" prefHeight="138.0" prefWidth="574.0" text="Ratovi zvijezda, &#10;Brandenburških koncerata, &#10;Dvije strasti, Misa u B-molu, &#10;Goldberg varijacije, &#10;Goldberg varijacijeIzumi i Sinfonias, &#10;Plesne suites, Uvertira u francuskom stilu, &#10;Talijanski koncert." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Wolfgang Amadeus Mozart">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="127.0" fitWidth="162.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/mozart.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="135.0" layoutY="13.0" prefHeight="130.0" prefWidth="442.0" text="Svestran skladatelj, Mozart rođen je u Salzburgu 1756 i sastoji se preko 600 &#10;radova. &#10;Njegova glazba stoji kao ideal klasičnom stilu. &#10;&#10;Okolnosti njegova rana smrt je tajanstvena koji je uzrokovao brojne legende. &#10;&#10;Neke od svojih najcjenjenijih djela su:" />
+                        <TextArea layoutX="14.0" layoutY="145.0" prefHeight="133.0" prefWidth="568.0" text="Ratovi zvijezda, Manje sonatu,&#10;Pariz simfonija, Čarobna frula K. 595 u B-duru&#10;Klarinet koncert K. 622K. &#10;614 u E-molu &#10;Motet Ave verum corpus K. 618&#10;Nedovršeni Requiem K. 626&#10;Motet Exsultate, jubilate, K. 165" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ludwig van Beethoven">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="109.0" fitWidth="138.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/ludwig.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="130.0" layoutY="13.0" prefHeight="111.0" prefWidth="456.0" text="Beethoven se smatra najpoznatijih i najutjecajnijih skladatelja svih vremena. &#10;&#10;Rođen je 1770 i u posljednjem desetljeću njegova života okrenuo potpuno gluh ali &#10;sastoji najcjenjenijih njegovih djela. Beethoven je najpoznatiji skladateljske karijere.&#10;&#10;Radovi uključuju:" />
+                        <TextArea layoutX="13.0" layoutY="125.0" prefHeight="160.0" prefWidth="575.0" text="Prve i druge simfonije,&#10;Opus 18, &#10;Pathetique sonata,&#10;Trostruki koncert,&#10;Koncert za violinu,&#10;Mjesečina,&#10;Waldstein,&#10;Appassionata, Kreutzer." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Franz Schubert">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="121.0" fitWidth="133.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/fraschu.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="147.0" layoutY="14.0" prefHeight="121.0" prefWidth="439.0" text="Plodan austrijski skladatelj Franz Schubert je rođen 1797, ali je umro vrlo mlad &#10;31 i pokopan uz Beethovena kojemu se jako divio. &#10;&#10;Priznanja su plaćeni mnogi visoko slavljen glazbenika da ovaj talentirani &#10;skladatelj čiji rad uključuje:" />
+                        <TextArea layoutX="14.0" layoutY="141.0" prefHeight="138.0" prefWidth="572.0" text="U-stan veliki, Simfonija u B-molu,&#10;Fierrabras,&#10;Umrijeti schone Mullerin,&#10;Winterreise,&#10;Sonata u A-molu, Okteta u F-duru,&#10;Divertissement La hongroise,&#10;Gudački kvartet u A molu" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Franz Liszt">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="126.0" fitWidth="154.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/fralis.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="106.0" layoutY="13.0" prefHeight="128.0" prefWidth="480.0" text="Liszt je mađarski skladatelj koji je bio vrlo dobro ispred svoje dane u svoje napredne i &#10;tehničko znanje kao pijanist. &#10;&#10;Među njegove mnoge ostavština je njegov izum simfonijskog pjesme ili doprinosima &#10;istih. &#10;&#10;Iako slavni pijanist on je također prepoznat za sljedeće radove:" />
+                        <TextArea layoutX="10.0" layoutY="143.0" prefHeight="137.0" prefWidth="581.0" text="Angiolin dal biondo Krin,&#10;Buch der Lieder,&#10;Ich moram hingehn,&#10;Od kolijevke do groba, Tužan majmun,&#10;Dissonances, Fontane Vila d'Este, &#10;Ožujak pogreba, u spomen na Maximilian,&#10;Csardas jeziv." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

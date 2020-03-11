@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="387.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PocetnaController">
+   <children>
+      <ImageView fitHeight="414.0" fitWidth="600.0" layoutY="-2.0" opacity="0.58" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/pocetna.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="55.0" layoutY="5.0" text="KvizoManija" textFill="#ee0404">
+         <font>
+            <Font name="Broadway" size="64.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="72.0" layoutX="507.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/upitnik1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnOdjava" layoutX="505.0" layoutY="355.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="14.0" layoutY="362.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="362.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="221.0" layoutY="86.0" text="Odaberite vrstu kviza:" textFill="#fc0808">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPravila" layoutX="173.0" layoutY="288.0" mnemonicParsing="false" onAction="#GoPravila" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Pravila kviza" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Knob-Info-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="245.0" layoutY="360.0" text="Znanje je moć! :)" textFill="#fc0808">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnKlasMuz" layoutX="107.0" layoutY="123.0" mnemonicParsing="false" onAction="#GoKlasMuz" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Klasična muzika" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Music-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnGeo" layoutX="107.0" layoutY="173.0" mnemonicParsing="false" onAction="#GoGeografija" prefHeight="29.0" prefWidth="131.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Geografija" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Maps-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnZiv" layoutX="107.0" layoutY="218.0" mnemonicParsing="false" onAction="#GoZivotinje" prefHeight="29.0" prefWidth="131.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Životinje" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Dog-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPov" layoutX="344.0" layoutY="123.0" mnemonicParsing="false" onAction="#GoPovijest" prefHeight="29.0" prefWidth="141.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Povijest" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/turin-map-detail-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnHrana" layoutX="344.0" layoutY="173.0" mnemonicParsing="false" onAction="#GoHrana" prefHeight="29.0" prefWidth="141.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Hrana" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/recipe-wine-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPromZnak" layoutX="343.0" layoutY="218.0" mnemonicParsing="false" onAction="#GoPromZnak" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Prometni znakovi" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/vlc-cone-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnRezultati" layoutX="309.0" layoutY="288.0" mnemonicParsing="false" onAction="#GoRezultati" prefHeight="31.0" prefWidth="110.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Rezultati" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Numbers-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

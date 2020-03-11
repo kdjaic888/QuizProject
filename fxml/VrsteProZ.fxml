@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.VrsteProZController">
+   <children>
+      <Label layoutX="131.0" layoutY="7.0" prefHeight="35.0" prefWidth="342.0" text="Vrste prometnih znakova" textFill="#dd0404" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPovratak" layoutX="497.0" layoutY="365.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#f20808">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="14.0" layoutY="368.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="368.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOdjava" layoutX="125.0" layoutY="366.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TabPane layoutX="1.0" layoutY="51.0" prefHeight="312.0" prefWidth="600.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Znakovi opasnosti">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane layoutX="-1.0" prefHeight="283.0" prefWidth="601.0">
+                           <content>
+                              <AnchorPane prefHeight="270.0" prefWidth="602.0" />
+                           </content></ScrollPane>
+                        <AnchorPane prefHeight="275.0" prefWidth="590.0">
+                           <children>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="6.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/cetvrti.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="96.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/drugi.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="191.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/prvi.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="295.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="396.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot002.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="495.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot004.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="-1.0" layoutY="72.0" prefHeight="20.0" prefWidth="95.0" text="Spajanje sporedne ceste" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="108.0" layoutY="75.0" prefHeight="15.0" prefWidth="59.0" text="Raskrižje cesta" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="195.0" layoutY="75.0" prefHeight="14.0" prefWidth="74.0" text="Opasnost na cesti " textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="287.0" layoutY="73.0" prefHeight="20.0" prefWidth="95.0" text="Spajanje sporedne ceste" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="409.0" layoutY="75.0" prefHeight="14.0" prefWidth="56.0" text="Zavoj ulijevo" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="502.0" layoutY="73.0" prefHeight="20.0" prefWidth="66.0" text="Dvostruki zavoj" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="5.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot006.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="87.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot008.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="168.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot010.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="255.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot011.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="338.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot014.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="424.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot015.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="506.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot016.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="13.0" layoutY="162.0" prefHeight="20.0" prefWidth="66.0" text="Opasna nizbrdica" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="97.0" layoutY="162.0" prefHeight="20.0" prefWidth="58.0" text="Suženje ceste" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="154.0" layoutY="162.0" prefHeight="20.0" prefWidth="108.0" text="Suženje ceste s lijeve strane" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="267.0" layoutY="162.0" prefHeight="20.0" prefWidth="66.0" text="Neravan kolnik " textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="347.0" layoutY="160.0" prefHeight="20.0" prefWidth="58.0" text="Sklizak kolnik" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="436.0" layoutY="162.0" prefHeight="20.0" prefWidth="59.0" text="Kamenje pršti" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="516.0" layoutY="162.0" prefHeight="20.0" prefWidth="58.0" text="Kamenje pada" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="7.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot017.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="86.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot019.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="173.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot021.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="257.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot022.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="341.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot028.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="437.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot042.jpg" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="73.0" fitWidth="82.0" layoutX="510.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../imgs/Screenshot047.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="11.0" layoutY="249.0" prefHeight="20.0" prefWidth="72.0" text="Prometna svjetla" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="97.0" layoutY="251.0" prefHeight="20.0" prefWidth="58.0" text="Radovi na cesti" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="172.0" layoutY="251.0" prefHeight="20.0" prefWidth="85.0" text="Promet u oba smijera " textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="262.0" layoutY="251.0" prefHeight="20.0" prefWidth="76.0" text="Kružni tok prometa" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="343.0" layoutY="251.0" prefHeight="20.0" prefWidth="100.0" text="Obilježen pješački prijelaz" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="453.0" layoutY="251.0" prefHeight="20.0" prefWidth="50.0" text="Andrijin križ" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="516.0" layoutY="251.0" prefHeight="20.0" prefWidth="58.0" text="240 m od žp" textFill="#f20606">
+                                 <font>
+                                    <Font name="System Bold" size="8.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Izričitih naredbi">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane layoutY="-1.0" prefHeight="286.0" prefWidth="601.0">
+                           <content>
+                              <AnchorPane prefHeight="281.0" prefWidth="601.0">
+                                 <children>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot048.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="109.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot049.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="213.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot050.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="338.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot051.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="482.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot056.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="14.0" layoutY="73.0" text="Raskrižje s cestom" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="99.0" layoutY="74.0" text="Obavezno zaustavljanje " textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="198.0" layoutY="76.0" text="Zabrana prometa u 1 smijeru" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="320.0" layoutY="76.0" text="Zabrana prometa za sva motorna vozila" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="481.0" layoutY="76.0" text="Zabrana prometa za pješake" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="5.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot057.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="109.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot058.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="229.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot059.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="351.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot060.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="481.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot062.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="16.0" layoutY="168.0" text="ZP čija masa&gt;7.5" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="120.0" layoutY="168.0" text="ZP čija visina&gt;2.2" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="202.0" layoutY="166.0" text="Najmanja udaljenost između vozila" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="354.0" layoutY="166.0" text="Zabrana skretanja ulijevo" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="488.0" layoutY="168.0" text="Ograničenje brzine" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="8.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot063.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="142.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot064.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="280.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot065.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="377.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot066.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="88.0" layoutX="491.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot070.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="6.0" layoutY="261.0" text="Zabrana preticanja MV" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="99.0" layoutY="261.0" text="Prednost prolaska vozila iz suprotnog smijera " textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="281.0" layoutY="261.0" text="Zabrana zaus. parkir." textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="373.0" layoutY="261.0" text="Najmanja dopuštena brz." textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="496.0" layoutY="261.0" text="Kružni tok prometa" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Znakovi obavijesti">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane layoutX="-1.0" layoutY="1.0" prefHeight="282.0" prefWidth="600.0">
+                           <content>
+                              <AnchorPane prefHeight="281.0" prefWidth="599.0">
+                                 <children>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="32.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot073.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="144.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot074.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="252.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot075.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="377.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot076.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="491.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot077.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="14.0" layoutY="86.0" text="Obilježen pješački prijelaz" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="125.0" layoutY="86.0" text="Cesta s prednošću prolaska" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="275.0" layoutY="86.0" text="Cestarina" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="379.0" layoutY="86.0" text="Sigurnosni izlaz" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="469.0" layoutY="86.0" text="Završetak biciklističke staze" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="32.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot080.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="145.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot081.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="262.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot082.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="378.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot088.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="489.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot087.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="41.0" layoutY="172.0" text="Parkiralište" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="142.0" layoutY="172.0" text="Benzinska postaja" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="257.0" layoutY="172.0" text="Stajalište autobusa" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="371.0" layoutY="172.0" text="Završetak autoceste" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="502.0" layoutY="172.0" text="Autocesta" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="40.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot089.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="140.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot090.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="256.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot091.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="369.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot092.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="61.0" fitWidth="80.0" layoutX="499.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot078.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="9.0" layoutY="252.0" text="Zaustavljanje vozila u nuždi " textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="165.0" layoutY="252.0" text="Tunel" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="281.0" layoutY="252.0" text="Rijeka" textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="361.0" layoutY="252.0" text="Naziv naseljenog mjesta " textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="505.0" layoutY="252.0" text="Bolnica " textFill="#b50202">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Znakovi obavijesti za vođenje prometa">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ScrollPane layoutX="-1.0" prefHeight="283.0" prefWidth="600.0">
+                           <content>
+                              <AnchorPane prefHeight="269.0" prefWidth="600.0">
+                                 <children>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="31.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot094.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="169.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot095.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="317.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot105.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="459.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot103.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="39.0" layoutY="73.0" text="Predputokaz za izlaz" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="167.0" layoutY="73.0" text="Predputokaz za čvorište " textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="334.0" layoutY="73.0" text="Potvrda smjera" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="490.0" layoutY="75.0" text="Putokaz" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="43.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot101.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="168.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot098.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="319.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot100.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="462.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot102.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="37.0" layoutY="161.0" text="Predputokaz za izlaz " textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="168.0" layoutY="161.0" text="Raskrižje kružnog oblika" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="324.0" layoutY="161.0" text="Predputokaz za izlaz" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="475.0" layoutY="167.0" text="Putokazna ploča" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="460.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot104.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="470.0" layoutY="255.0" text="Putokaz na portalu" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="48.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot097.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="186.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot099.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="92.0" layoutX="324.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Screenshot096.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="61.0" layoutY="255.0" text="Raskrižje" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="174.0" layoutY="255.0" text="Predputokazna ploča " textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="340.0" layoutY="255.0" text="Raskrižje" textFill="#cd0404">
+                                       <font>
+                                          <Font name="System Bold" size="8.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

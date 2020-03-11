@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PovKalController">
+   <children>
+      <Label layoutX="179.0" layoutY="7.0" text="Povijesni kalendar" textFill="#f20707" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="378.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="378.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="btnOdjava" layoutX="119.0" layoutY="370.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPovratak" layoutX="497.0" layoutY="370.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#e80909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnSijecanj" layoutX="-1.0" layoutY="41.0" mnemonicParsing="false" onAction="#prikaziSijecanj" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Siječanj" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnVeljaca" layoutY="68.0" mnemonicParsing="false" onAction="#prikaziVeljaca" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Veljača" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnOzujak" layoutY="96.0" mnemonicParsing="false" onAction="#prikaziOzujak" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Ožujak" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnTravanj" layoutY="122.0" mnemonicParsing="false" onAction="#prikaziTravanj" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Travanj" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnSvibanj" layoutY="149.0" mnemonicParsing="false" onAction="#prikaziSvibanj" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Svibanj" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnLipanj" layoutY="176.0" mnemonicParsing="false" onAction="#prikaziLipanj" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Lipanj" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnSrpanj" layoutY="203.0" mnemonicParsing="false" onAction="#prikaziSrpanj" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Srpanj" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnKolovoz" layoutY="230.0" mnemonicParsing="false" onAction="#prikaziKolovoz" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Kolovoz" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnRujan" layoutY="257.0" mnemonicParsing="false" onAction="#prikaziRujan" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Rujan" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnListopad" layoutY="284.0" mnemonicParsing="false" onAction="#prikaziListopad" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Listopad" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnStudeni" layoutY="311.0" mnemonicParsing="false" onAction="#prikaziStudeni" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Studeni" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnProsinac" layoutY="338.0" mnemonicParsing="false" onAction="#prikaziProsinac" prefHeight="29.0" prefWidth="97.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Prosinac" textFill="#bf0404">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Calendar-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="povkal" layoutX="97.0" layoutY="45.0" prefHeight="322.0" prefWidth="506.0" style="-fx-background-color: violet; -fx-border-color: purple;" stylesheets="@../tablice.css">
+        <columns>
+          <TableColumn fx:id="datum" prefWidth="90.0" text="Datum" />
+            <TableColumn fx:id="dogadjaj" prefWidth="415.0" text="Događaj" />
+        </columns>
+         <styleClass>
+            <String fx:value="column-header" />
+            <String fx:value="column-header-background" />
+            <String fx:value="decrement-button" />
+            <String fx:value="increment-button" />
+            <String fx:value="label" />
+            <String fx:value="root" />
+            <String fx:value="scroll-bar" />
+            <String fx:value="table-cell" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="table-view" />
+            <String fx:value="track" />
+            <String fx:value="track-background" />
+            <String fx:value="virtual-flow" />
+         </styleClass>
+      </TableView>
+   </children>
+</AnchorPane>

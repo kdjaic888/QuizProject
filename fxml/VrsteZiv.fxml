@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.VrsteZivController">
+   <children>
+      <Label layoutX="207.0" layoutY="7.0" text="Vrste životinja" textFill="#d30404" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="369.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="369.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="btnOdjava" layoutX="115.0" layoutY="365.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPovratak" layoutX="490.0" layoutY="364.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#e80909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TabPane layoutY="46.0" prefHeight="308.0" prefWidth="600.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Sisavci">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Prasisavci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="41.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/cudnovatik.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="245.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kratkokljjez.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="432.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/dujes.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="43.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/isduje.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="235.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/ješci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="65.0" fitWidth="85.0" layoutX="435.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zapduje.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="33.0" layoutY="97.0" text="Čudnovati kljunaš" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="227.0" layoutY="97.0" text="Kratkokljuni ježac" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="397.0" layoutY="97.0" text="Dugokljuni ježac Sir Davida" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="17.0" layoutY="210.0" text="Istočni dugokljuni ježac" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="262.0" layoutY="210.0" text="Ježac" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="404.0" layoutY="210.0" text="Zapadni dugokljuni ježac" textFill="#c60606">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Tobolčari">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/oposum.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="166.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/misolikitobolcar.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="334.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/čileto.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="473.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/krticato.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="26.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/tasvrag.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="168.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/too.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="360.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/klok.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="70.0" fitWidth="111.0" layoutX="484.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/koala.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="39.0" layoutY="98.0" text="Oposum" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="174.0" layoutY="98.0" text="Mišoliki tobolčar" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="332.0" layoutY="98.0" text="Čileanski tobolčar" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="478.0" layoutY="98.0" text="Krtica tobolčar" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="20.0" layoutY="212.0" text="Tasmanski vrag" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="178.0" layoutY="212.0" text="Nosati tobolčar" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="363.0" layoutY="212.0" text="Klokan" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="504.0" layoutY="212.0" text="Koala" textFill="#d00404">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Placentalni sisavci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="7.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/mravojed.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="63.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/armadil.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="180.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kukcojed.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="280.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sismis.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="406.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zirafa.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="497.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Slon.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="5.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kit.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="137.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sivivuk.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="254.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Neparnoprstaši.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="371.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/mis.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="74.0" fitWidth="123.0" layoutX="490.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zec.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="3.0" layoutY="101.0" text="Mravojed" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="96.0" layoutY="101.0" text="Armadil" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="200.0" layoutY="101.0" text="Kukcojed" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="322.0" layoutY="101.0" text="Šišmiš" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="432.0" layoutY="101.0" text="Žirafa" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="530.0" layoutY="101.0" text="Slon" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="55.0" layoutY="219.0" text="Kit" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="164.0" layoutY="219.0" text="Sivi vuk" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="259.0" layoutY="219.0" text="Domaći magarac" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="414.0" layoutY="219.0" text="Miš" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="533.0" layoutY="219.0" text="Zec" textFill="#bf0505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ptice">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Bubnjavke">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="73.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Albatros.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="361.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zovoj.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="145.0" layoutY="208.0" text="Albatros" textFill="#a80303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="409.0" layoutY="208.0" text="Zovoj" textFill="#a80303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Nojevke">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="14.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Noj.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="112.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pravikazuar.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="215.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Albatros.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="358.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zovoj.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="460.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Golub.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="14.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/cigra.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="68.0" fitWidth="102.0" layoutX="157.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Jastreb.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="68.0" fitWidth="102.0" layoutX="246.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/vodosjec.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="370.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sova.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="66.0" fitWidth="112.0" layoutX="466.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kulic.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="27.0" layoutY="105.0" text="Noj" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="97.0" layoutY="105.0" text="Pravi kazuar" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="233.0" layoutY="105.0" text="Albatros" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="369.0" layoutY="105.0" text="Zovoj" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="489.0" layoutY="105.0" text="Golub" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="50.0" layoutY="216.0" text="Čigra" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="158.0" layoutY="216.0" text="Jastreb" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="259.0" layoutY="216.0" text="Vodosjec" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="377.0" layoutY="216.0" text="Sova" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="493.0" layoutY="216.0" text="Kulic" textFill="#a40404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Golupčarke">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="174.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Golub.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="254.0" layoutY="206.0" text="Golub" textFill="#b20404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Močvarice">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Njorka.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="186.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/dromah.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="356.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Pomornik.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="487.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Galeb.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="19.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/cigra.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="232.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kulic.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="88.0" fitWidth="123.0" layoutX="433.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/vodosjec.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="58.0" layoutY="105.0" text="Njorka" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="221.0" layoutY="105.0" text="Dromah" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="363.0" layoutY="105.0" text="Pomornik" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="503.0" layoutY="105.0" text="Galeb" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="63.0" layoutY="226.0" text="Čigra" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="273.0" layoutY="226.0" text="Kulic" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="457.0" layoutY="226.0" text="Vodosjec" textFill="#a40303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Sokolovke">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="139.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sova.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="344.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Jastreb.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="176.0" layoutY="216.0" text="Sova" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="375.0" layoutY="216.0" text="Jastreb" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Gmazovi">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Kornjače">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Kornjaca.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="271.0" layoutY="200.0" text="Kornjača" textFill="#c60505">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Gušteri">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Gušter.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="278.0" layoutY="207.0" text="Gušter" textFill="#b20303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ljuskaši">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Anakonde.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="138.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Jamičarke.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="290.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Kobre.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="442.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Mambe.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="22.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Piton.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="160.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Pjegava%20crvenkrpica.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="315.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Ridjovke.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="79.0" fitWidth="123.0" layoutX="479.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Udavke.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="32.0" layoutY="108.0" text="Anakonde" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="164.0" layoutY="108.0" text="Jamičarke" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="332.0" layoutY="108.0" text="Kobre" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="473.0" layoutY="108.0" text="Mambe" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="46.0" layoutY="219.0" text="Piton" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="156.0" layoutY="219.0" text="Pjegava crvenkrpica" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="351.0" layoutY="219.0" text="Riđovka" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="491.0" layoutY="219.0" text="Udavke" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Krokodili">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="118.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/američki%20aligator.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="290.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Nilski%20krokodil.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="122.0" layoutY="202.0" text="Američki aligator" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="342.0" layoutY="202.0" text="Nilski krokodil" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Vodozemci">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Žabe">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Žabe.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="269.0" layoutY="201.0" text="Gatalinka" textFill="#b50303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Repaši">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pjegdazd.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="237.0" layoutY="204.0" text="Pjegavi daždevnjak" textFill="#b90505">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Beznošci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/prva.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="330.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/prva2.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="90.0" layoutY="208.0" text="Idiocranium russeli" textFill="#c30404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="369.0" layoutY="208.0" text="Grandisonia brevis" textFill="#c30404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ribe">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Besčeljuste">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="135.0" fitWidth="162.0" layoutX="25.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sljepulja.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="135.0" fitWidth="162.0" layoutX="227.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/morska%20paklara.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="135.0" fitWidth="162.0" layoutX="424.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/riječ%20paklara.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="78.0" layoutY="205.0" text="Sljepulja" textFill="#b20303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="257.0" layoutY="205.0" text="Morska paklara" textFill="#b20303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="455.0" layoutY="205.0" text="Riječna paklara" textFill="#b20303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Čeljustouste">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="14.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/raža.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="140.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/morski%20pas.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="300.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Ptycodurus%20eques.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="448.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Veliki%20bucanj.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="14.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/skuša.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="156.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Peprilus%20burti.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="326.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Lepidosiren%20paradoxa.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="82.0" fitWidth="119.0" layoutX="467.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Protopterus%20annectens.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="30.0" layoutY="105.0" text="Raža" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="161.0" layoutY="105.0" text="Morski pas" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="301.0" layoutY="105.0" text="Ptycodurus eques" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="460.0" layoutY="105.0" text="Veliki bucanj " textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="50.0" layoutY="227.0" text="Skuša" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="174.0" layoutY="227.0" text="Peprilus burti" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="293.0" layoutY="227.0" text="Lepidosiren paradoxa" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="450.0" layoutY="227.0" text="Protopterus annectens" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Rakovi">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Listonošci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/listo.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="265.0" layoutY="198.0" text="Listonožak" textFill="#b90606">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Dvoljušturci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/dvoljusturci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="258.0" layoutY="216.0" text="Dvoljušturak" textFill="#bf0404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Veslonošci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="228.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/veslo.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="229.0" layoutY="216.0" text="Euaugaptilus filigerus" textFill="#c30303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Škrgorepci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/skrgo.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="262.0" layoutY="216.0" text="Škrgorepak" textFill="#b90303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Vitičari">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/brmbuljci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="268.0" layoutY="216.0" text="Brmbuljci" textFill="#c30404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Mekušci">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Školjkaši">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="67.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kamenica.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="326.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/dagnja.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="135.0" layoutY="216.0" text="Kamenica" textFill="#bf0404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="403.0" layoutY="216.0" text="Dagnja" textFill="#bf0404">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Puževi">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/puz%20golac.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="268.0" layoutY="216.0" text="Puž golać" textFill="#c90303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Glavonošci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="132.0" fitWidth="162.0" layoutX="29.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/lignje.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="132.0" fitWidth="162.0" layoutX="229.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/hobotnice.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="132.0" fitWidth="162.0" layoutX="424.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/sipa.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="90.0" layoutY="202.0" text="Lignja" textFill="#c60505">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="276.0" layoutY="202.0" text="Hobotnica" textFill="#c60505">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="491.0" layoutY="202.0" text="Sipa" textFill="#c60505">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Hitoni">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Hitoni.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="279.0" layoutY="205.0" text="Hitoni" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Paučnjaci">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Krpelji">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/krpelj.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="267.0" layoutY="206.0" text="Argasidae" textFill="#b50303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Pauci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="115.0" fitWidth="136.0" layoutX="25.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pauk1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="115.0" fitWidth="136.0" layoutX="175.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pauk2.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="115.0" fitWidth="136.0" layoutX="287.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pauk3.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="115.0" fitWidth="136.0" layoutX="456.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/pauk4.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="33.0" layoutY="203.0" text="Actinopodidae" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="177.0" layoutY="203.0" text="Dictynidae" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="295.0" layoutY="203.0" text="Loxosceles reclusa" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="474.0" layoutY="203.0" text="Tetragnathidae" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Štipavci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/skorpi.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="270.0" layoutY="216.0" text="Škorpion" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Lažištipavci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/lazistipavci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="221.0" layoutY="216.0" text="Lasiochernes cretonatus" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Kukci">
+               <content>
+                  <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Beskrilci">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/četi.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="333.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/kudravci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="148.0" layoutY="206.0" text="Četinaš" textFill="#c90303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="323.0" layoutY="206.0" text="Srebrna ribica" textFill="#c90303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                      <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Krilaši">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="112.0" fitWidth="135.0" layoutX="24.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Buhe.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="112.0" fitWidth="135.0" layoutX="141.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/leptir.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="112.0" fitWidth="135.0" layoutX="307.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/vretenca.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="112.0" fitWidth="135.0" layoutX="457.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/zohar.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="50.0" layoutY="194.0" text="Buhe" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="189.0" layoutY="194.0" text="Leptir" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="332.0" layoutY="194.0" text="Konjska smrt" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="505.0" layoutY="194.0" text="Žohar" textFill="#bc0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                        <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Unutarčeljusnici">
+                           <content>
+                              <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="162.0" layoutX="14.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/Bezrepci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="162.0" layoutX="211.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/dvorepci.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fitHeight="150.0" fitWidth="162.0" layoutX="399.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../imgs/skok.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label layoutX="67.0" layoutY="200.0" text="Bezrepci" textFill="#ab0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="454.0" layoutY="200.0" text="Skokuni" textFill="#ab0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="263.0" layoutY="200.0" text="Dvorepci" textFill="#ab0303">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                           </content></Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

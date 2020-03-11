@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" stylesheets="@../tablice.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NuVrijController">
+   <children>
+      <Label layoutX="171.0" text="Nutritivne vrijednosti" textFill="#dd0404" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="376.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="376.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOdjava" layoutX="135.0" layoutY="368.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPovratak" layoutX="494.0" layoutY="368.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#f20808">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnJaja" layoutX="-3.0" layoutY="68.0" mnemonicParsing="false" onAction="#GoJaja" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Jaja" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Egg-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnMlijeko" layoutX="-3.0" layoutY="101.0" mnemonicParsing="false" onAction="#GoMlijeko" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Mlijeko" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/milk-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnKrumpir" layoutX="-3.0" layoutY="135.0" mnemonicParsing="false" onAction="#GoKrumpir" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Krumpir" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/32360-potato-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnPovrce" layoutX="-3.0" layoutY="168.0" mnemonicParsing="false" onAction="#GoPovrce" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Povrće" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Fruits-Vegetables-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnMasnoce" layoutX="-3.0" layoutY="202.0" mnemonicParsing="false" onAction="#GoMasnoce" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Masnoće" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Oil-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnRiba" layoutX="-3.0" layoutY="235.0" mnemonicParsing="false" onAction="#GoRiba" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Riba" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Cod-Battle-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnMeso" layoutX="-2.0" layoutY="269.0" mnemonicParsing="false" onAction="#GoMeso" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Meso" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/beef-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnVoce" layoutX="-2.0" layoutY="303.0" mnemonicParsing="false" onAction="#GoVoce" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Voće" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Grapes-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnZitarice" layoutX="-3.0" layoutY="337.0" mnemonicParsing="false" onAction="#GoZitarice" prefHeight="29.0" prefWidth="106.0" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Žitarice" textFill="#a40303">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Corn-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="nuvrij" layoutX="103.0" layoutY="43.0" prefHeight="323.0" prefWidth="497.0" style="-fx-background-color: violet; -fx-border-color: purple;" stylesheets="@../../../../../Desktop/tablice.css">
+        <columns>
+          <TableColumn fx:id="ime" prefWidth="221.0" text="Ime (100 grama)" />
+            <TableColumn fx:id="kalorije" prefWidth="70.0" text="Kalorije" />
+            <TableColumn fx:id="proteini" prefWidth="74.0" text="Proteini" />
+            <TableColumn fx:id="ugljik" prefWidth="64.0" text="Ugljik." />
+            <TableColumn fx:id="masti" prefWidth="67.0" text="Masti" />
+        </columns>
+      </TableView>
+   </children>
+   <styleClass>
+      <String fx:value="column-header-background" />
+      <String fx:value="column-header" />
+      <String fx:value="decrement-button" />
+      <String fx:value="increment-button" />
+      <String fx:value="label" />
+      <String fx:value="root" />
+      <String fx:value="scroll-bar" />
+      <String fx:value="table-cell" />
+      <String fx:value="table-row-cell" />
+      <String fx:value="table-view" />
+      <String fx:value="track" />
+      <String fx:value="track-background" />
+      <String fx:value="virtual-flow" />
+   </styleClass>
+</AnchorPane>

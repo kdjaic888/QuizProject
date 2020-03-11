@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistracijaController">
+   <children>
+      <ImageView fitHeight="132.0" fitWidth="210.0" layoutX="402.0" layoutY="1.0" opacity="0.58" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/pocetna.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="50.0" layoutY="1.0" text="Registracija" textFill="#f50505" underline="true">
+         <font>
+            <Font name="Broadway" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="96.0" text="Ime:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="132.0" text="Prezime:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="166.0" text="Dob:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="201.0" text="Spol:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="237.0" text="Korisničko ime:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="271.0" text="Lozinka:" textFill="#da0f0f">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Ime" layoutX="160.0" layoutY="94.0" prefHeight="25.0" prefWidth="232.0" promptText="Ime" style="-fx-background-color: lightgrey;" />
+      <TextField fx:id="Prezime" layoutX="160.0" layoutY="130.0" prefHeight="25.0" prefWidth="232.0" promptText="Prezime" style="-fx-background-color: lightgrey;" />
+      <TextField fx:id="Dob" layoutX="160.0" layoutY="164.0" prefHeight="25.0" prefWidth="232.0" promptText="Dob" style="-fx-background-color: lightgrey;" />
+      <RadioButton fx:id="rbtnMusko" layoutX="160.0" layoutY="203.0" mnemonicParsing="false" style="-fx-background-color: lightgrey;" text="M">
+         <toggleGroup>
+            <ToggleGroup fx:id="spolOdabir" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rbtnZensko" layoutX="221.0" layoutY="203.0" mnemonicParsing="false" style="-fx-background-color: lightgrey;" text="Ž" toggleGroup="$spolOdabir" />
+      <TextField fx:id="KorisnickoIme" layoutX="161.0" layoutY="235.0" prefHeight="25.0" prefWidth="232.0" promptText="Korisnicko ime" style="-fx-background-color: lightgrey;" />
+      <PasswordField fx:id="Lozinka" layoutX="161.0" layoutY="269.0" prefHeight="25.0" prefWidth="232.0" promptText="Lozinka" style="-fx-background-color: lightgrey;" />
+      <Button fx:id="potvrdi" layoutX="56.0" layoutY="349.0" mnemonicParsing="false" onAction="#potvrdiF" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Potvrda" textFill="#d31212">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Knob-Valid-Green-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnIzlaz" layoutX="205.0" layoutY="349.0" mnemonicParsing="false" onAction="#goToLogin" style="-fx-background-radius: 9,9,9; -fx-border-color: black; -fx-border-radius: 9,9,9; -fx-background-color: #DEB887;" text="Odustani" textFill="#d31212">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Knob-Cancel-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="lblReg" layoutX="39.0" layoutY="314.0" prefHeight="17.0" prefWidth="332.0" textFill="#f20707">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/User-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/User-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/contact-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/Key-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/couple-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="21.0" layoutX="14.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/god.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="210.0" layoutX="402.0" layoutY="134.0" opacity="0.58" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/pocetna.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="210.0" layoutX="402.0" layoutY="268.0" opacity="0.58" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imgs/pocetna.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

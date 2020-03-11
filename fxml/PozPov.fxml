@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PozPovController">
+   <children>
+      <Label layoutX="167.0" text="Poznati povjesničari" textFill="#d70606" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPovratak" layoutX="490.0" layoutY="366.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#e80909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="14.0" layoutY="371.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="371.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="btnOdjava" layoutX="121.0" layoutY="367.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TabPane layoutY="44.0" prefHeight="319.0" prefWidth="601.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Kajo Adžić">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="140.0" fitWidth="145.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/kajoadzic.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="177.0" layoutY="13.0" prefHeight="123.0" prefWidth="387.0" text="Hrvatski vjerski pisac (Pleternica, 19. siječnja 1805. - Požega, 12. &#10;siječnja 1892.).&#10;&#10;Bio je franjevac, filozof i teolog, a naobrazbu je stekao u Našicama, &#10;Baji i Budimpešti." />
+                        <TextArea layoutX="20.0" layoutY="145.0" prefHeight="143.0" prefWidth="544.0" text="Obnašao je dužnosti profesora teologije, ravnatelja bogoslovnog učilišta i pučke škole u Vukovaru &#10;(1832.-45.), te u Požegi direktora gimnazije (1848.-52.). &#10;&#10;Pisao je o kulturi, privredi i društvu i vjerskom životu Slavonije u listu Slavonac. Također, priredio &#10;je Štijenje i Evangjelja, prvi hrvatski lekcionar u kojem je primijenjen tada novi pravopis. &#10;&#10;Danas osnovna škola u Pleternici nosi njegovo ime." />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Nikola Andrić">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="137.0" fitWidth="156.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/nikolaa.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="143.0" layoutY="15.0" prefHeight="136.0" prefWidth="422.0" text="Nikola Andrić (Vukovar, 5. prosinca 1867. - Zagreb, 7. travnja 1942.), bio je &#10;hrvatski književni povjesničar, prevoditelj, filolog, dramaturg, novinar, &#10;feljtonist, leksikograf i kazališni djelatnik.&#10;&#10;Pučku školu pohađao je u rodnom gradu a gimnaziju u Osijeku. Studirao je &#10;slavistiku u Beču i romanistiku u Parizu a u doktora filologije promoviran je &#10;1897. godine, na osnovi rada iz 1892. godine, " />
+                        <TextArea layoutX="14.0" layoutY="152.0" prefHeight="141.0" prefWidth="550.0" text="U književnosti stekao je velike zasluge ne samo kao raznorodni pisac, nego i organizatorskim &#10;sposobnostima i pokretačkim, osobito nakladničkim zamislima. Pisao je feljtone, putopise i književno&#10;-povijesne rasprave. &#10;&#10;Od 1913. do 1941. godine, gotovo trideset je godina izdavao Zabavnu biblioteku koja je u 603 &#10;zelena sveska podarila čitalačkoj publici mnoštvo dotad u nas nepoznatih vrijednih djela. U Zabavnoj &#10;biblioteci objavio je većinu od četrdesetak knjiga svojih prijevoda." />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Vilim Bačić">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="124.0" fitWidth="156.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/vilim.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="125.0" layoutY="15.0" prefHeight="122.0" prefWidth="447.0" text="Vilim Bačić (Willy A. Bacich) (Pula, 3. srpnja 1896. – Beč, 17. lipnja 1969.), hrvatski &#10;pomorski časnik, pomorski i pravni pisac. &#10;&#10;U Rijeci 1914. završio pomorsku vojnu akademiju. Službovao je na ratnim &#10;brodovima austro-ugarske mornarice kao zapovjednik." />
+                        <TextArea layoutX="16.0" layoutY="140.0" prefHeight="148.0" prefWidth="554.0" text="Nakon rata službovao kao zapovjednik ratnih brodova u jugoslavenskoj ratnoj mornarici. U Beogradu &#10;je diplomirao na Pravnom fakultetu. U Parizu završio pomorsku vojnu akademiju 1927. godine. Pravo &#10;je doktorirao 1928. u Zagrebu. &#10;&#10;Pisao je povijesna, pomorska i pomorsko-pravna djela. Među važnija spadaju Uvod u međunarodno &#10;pomorsko javno i ratno pravo (1933.), Dubrovački brodari u doba procvata dubrovačkog pomorstva &#10;u XVI. vijeku (1941.), Poviest Prvog svjetskog rata na Jadranu I (1944.), " />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Juraj Ćuk">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="124.0" fitWidth="136.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/jurajcuk.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="103.0" layoutY="13.0" prefHeight="126.0" prefWidth="461.0" text="Juraj Ćuk (1891. - 1972.) hrvatski povjesničar i istraživač. &#10;&#10;Osobito zaslužan za istraživački rad na povijesti Turopolja, Vukomeričkih gorica, &#10;srednjeg Pokuplja i gornje Posavine." />
+                        <TextArea layoutX="19.0" layoutY="145.0" prefHeight="133.0" prefWidth="545.0" text="Juraj Ćuk rođen je na području Velike Gorice u naselju Gornji Hruševec (zaselak Milatovići), danas &#10;općina Kravarsko. &#10;&#10;Doktorirao na povijesnim znanostima te objavio poznata djela 1942.godine &quot;Povijest Plemenite &#10;Općine Turopolje&quot; i &quot;Gora Pomena&quot;." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Josip Horvat">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="125.0" fitWidth="156.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/josiphorvat.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="128.0" layoutY="14.0" prefHeight="125.0" prefWidth="444.0" text="Josip Horvat (Horvath) (Čepin, 15. siječnja 1896. - Zagreb, 6. listopada 1968.), &#10;hrvatski novinar i povjesničar.&#10;&#10;Horvat se obrazovao u Zagrebu (Trgovačku akademiju završio 1914.), gdje je i &#10;djelovao čitavog života. Od 1913. surađivao je u novinama Obzor; 1926. postao &#10;je glavni urednik Jutarnjeg lista." />
+                        <TextArea layoutX="20.0" layoutY="145.0" prefHeight="135.0" prefWidth="546.0" text="Najpoznatije su Horvatove povijesno-publicističke knjige Politička povijest Hrvatske, Kultura Hrvata &#10;kroz 1000 godina i Hrvatski panoptikum. Napisao je i biografije nekih od ključnih osoba hrvatske &#10;povijesti: Frana Supila, Ante Starčevića i Ljudevita Gaja. Autor je knjige Povijest novinstva Hrvatske, &#10;donedavno jedine povijesti hrvatskog novinarstva.&#10;&#10;Posebno su zanimljivi Horvatovi memoari: Živjeti u Hrvatskoj i Preživjeti u Zagrebu. " />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ivan Kašić">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="121.0" fitWidth="133.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/ivankasic.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="144.0" layoutY="14.0" prefHeight="122.0" prefWidth="421.0" text="Ivan Kašić (tal. Giovanni Cassio) (Nin, oko 1620. - Zadar, 27. prosinca 1698.), &#10;hrvatski ljetopisac i povjesničar.&#10;&#10;Rođen je u Ninu kao potomak zadarsko-ninskog ogranka paške plemićke &#10;obitelji Kašića, od oca Ivana Kašića i majke Kamile Zacharia.&#10;" />
+                        <TextArea layoutX="14.0" layoutY="144.0" prefHeight="136.0" prefWidth="554.0" text="Doktorirao je pravo u Padovi, zatim je služio u mletačkoj vojsci kao trupni časnik u ratu za Polesine. &#10;Od 1656. često je obnašao dužnost savjetnika, a od 1682. -1692. obnaša dužnost ninskog potkneza. &#10;&#10;Ivan Kašić pisac je povijesti Nina i Zadra, koje su izgubljene. Sačuvan je jedino rukopis o stanju Nina &#10;iz 1675. Pripisuje mu se pjesničko djelo na hrvatskom jeziku, napisano u povodu razorenja Nina 1648.&#10;godine. Ostavio je svojm potomcima bogatu pismohranu i knjižnicu." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ivo Perić">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="116.0" fitWidth="141.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/ivoperic.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="132.0" layoutY="9.0" prefHeight="127.0" prefWidth="433.0" text="Ivo Perić (Lukar, 15. listopada 1930. - Zagreb, 27. siječnja 2018.) hrvatski &#10;povjesničar i pedagog.&#10;&#10;Ivo Perić rodio se u Lukaru (Šibensko-kninska županija) 1930. godine.&#10;&#10;Osnovnu školu polazio je u rodnome mjestu a zatim je srednju školu &#10;polazio u Šibeniku i Zadru te potom filozofski fakultet u Sarajevu." />
+                        <TextArea layoutX="19.0" layoutY="145.0" prefHeight="138.0" prefWidth="543.0" text="Diplomirao je s diplomskim radom Problem preventivnog rata protiv Italije. Doktorirao je 1969. na &#10;beogradskom Filozofskom fakultetu. Radio je kao prosvjetni djelatnik, najviše u Dubrovniku, gdje je &#10;kasnije bio i direktor gimnazije. Od 1974. godine pa sve do umirovljenja, bio je zaposlen u HAZU. &#10;&#10;U povijesnoj znanosti bavi se s temama hrvatskog kulturnog, političkog i gospodarskog života. &#10;Njegov spisateljski opus sadržava i nekoliko udžbenika povijesti, razne osvrte i brojne priloge." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ivo Pilar">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="116.0" fitWidth="149.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/ivopilar.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="122.0" layoutY="1.0" prefHeight="130.0" prefWidth="448.0" text="Ivo Pilar (Zagreb, 19. lipnja 1874. – Zagreb, 3. rujna 1933.), bio je hrvatski pravnik, &#10;povjesničar, sociolog, publicist, filozofski pisac i pravaški političar, smatra se &#10;utemeljiteljem hrvatske geopolitike. Njegovim imenom nazvan je Instutut &#10;društvenih znanosti &quot;Ivo Pilar&quot; u Zagrebu.&#10;&#10;U Zagrebu je pohađao pučku školu. Klasičnu gimnaziju završio je u Zagrebu &#10;1893. godine." />
+                        <TextArea layoutX="18.0" layoutY="131.0" prefHeight="152.0" prefWidth="548.0" text="Prvi je hrvatski autor koji je pisao o njoj. Pojavio se radom dvadesetak godina nakon što se politički &#10;zemljopis/geopolitika u vodećim europskim zemljama etablirala kao znanstvena disciplina, u doba &#10;kada nalazi i praktičnu primjenu, ali kada se još uvijek nije pojmovno i vrijednosno razlučilo politički &#10;zemljopis i geopolitiku. Pilarov rad je Politički zemljopis hrvatskih zemalja. &#10;&#10;Geopolitička studija zasnovana još 1911. godine i to je prva rasprava koja se bavi hrvatskom &#10;tematikom u okviru te discipline. Otvorio je nove teme i uveo dotad nepoznate pojmove u hrvatski &#10;zemljopis." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

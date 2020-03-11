@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightpink;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PozGeoController">
+   <children>
+      <Label layoutX="193.0" layoutY="10.0" text="Poznati geografi" textFill="#eb0505" underline="true">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPovratak" layoutX="483.0" layoutY="371.0" mnemonicParsing="false" onAction="#GoPovratak" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Povratak" textFill="#f20808">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/Arrow-left-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="14.0" layoutY="378.0" text="Korisnik:" textFill="CORAL">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="378.0" text="Test">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="btnOdjava" layoutX="110.0" layoutY="374.0" mnemonicParsing="false" onAction="#GoOdjava" style="-fx-background-radius: 8,8,8; -fx-border-color: red; -fx-border-radius: 8,8,8; -fx-background-color: #FF7F50; -fx-text-fill: white;" text="Odjava" textFill="#f50909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="22.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imgs/AirMail-3-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TabPane layoutX="-1.0" layoutY="50.0" prefHeight="311.0" prefWidth="600.0" style="-fx-background-color: #FFE4B5; -fx-border-color: red;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Eratosten">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="164.0" fitWidth="128.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/Eratosten.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="160.0" layoutY="11.0" prefHeight="127.0" prefWidth="426.0" style="-fx-background-color: lightpink;" text="Eratosten (grč. Ἐρατοσθένης, Eratosthénēs; Cirena ili Kirena, današnji &#10;Shahhat, Libija, oko 276. pr. Kr. - Aleksandrija, 194. pr. Kr.) starogrčki &#10;matematičar, geograf, putopisac i astronom (vjerojatno). &#10;&#10;Studirao u Ateni i Aleksandriji (učenik Kalimahov i Zenonov). &#10;&#10;Predstojnik knjižnice u Aleksandriji. " />
+                        <TextArea layoutX="13.0" layoutY="138.0" prefHeight="147.0" prefWidth="574.0" style="-fx-background-color: lightpink;" text="Napisao mnogobrojne radove iz zemljopisa, astronomije, matematike, filozofije, književnosti i etike. &#10;&#10;Smatra se ocem zemljopisa. Glavno mu je djelo Geografija. Proslavio se mjerenjem opsega &#10;Zemlje (252 000 stadija; 1 stadij = 185 m) duž meridijana Asuana (Sijene) – Aleksandrije. Izradio kartu &#10;ekumene (naseljena zemlja) sa 7 meridijana i paralela, koja nije sačuvana, postoji samo nekoliko &#10;rekonstrukcija. Približno točno odredio nagib ekliptike prema ekvatoru, duljinu dana i trajanje godine. &#10;&#10;Pronašao postupak za određivanje prostih brojeva (Eratostenovo sito)." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Ptolemej">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="97.0" fitWidth="116.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/ptolemej.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="110.0" layoutY="18.0" prefHeight="89.0" prefWidth="476.0" text="Klaudije Ptolomej ili Claudius Ptolemaeus (drevni Egipat, oko 85. – Aleksandrija, oko &#10;165. pr. Kr.), poznat na hrvatskom kao Ptolemej, bio je starogrčki ili staroegipatski &#10;matematičar, zemljopisac, astronom, astrolog i glazbeni teoretičar koji je živio u &#10;Rimskom Egiptu, vjerojatno rođen u Tebaidi u gradu zvanom Ptolemais Hermiasov." />
+                        <TextArea layoutX="14.0" layoutY="118.0" prefHeight="182.0" prefWidth="570.0" text="Umro je u Aleksandriji. &#10;&#10;U djelu od 13 knjiga Veliki matematički sustav astronomije (grč. Μεγάλη μαϑηματιϰὴ σύνταξις τὴς &#10;ἀστρονομίας), poznatijem kao Almagest, prema naslovu arapskog prijevoda u kojem je sačuvano, &#10;sustavno je izložio antičku znanost o svemiru u okviru geocentričnoga sustava. Taj se sustav (Ptolemejev &#10;sustav) osniva na pretpostavci da se Sunce, planeti i zvijezde gibaju oko Zemlje kao nepomičnoga &#10;središta svemira. Iako se zasnivala na pogrešnoj pretpostavci, ta se teorija dobro slagala s motrenjem &#10;gibanja planeta. Tek je Kopernikovom teorijom (1500.) Ptolemejev sustav zamijenjen heliocentričnim &#10;sustavom. " />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Doreen Massey">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/dormassey.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="106.0" layoutY="13.0" prefHeight="118.0" prefWidth="474.0" text="Doreen Massey FRSA FBA (3. siječnja 1944.-11. ožujka 2016.), suvremena britanska &#10;društvena znanstvenica i geografkinja.&#10;&#10;Massey je rođena u Manchesteru, a studirala na Oxfordu i Philadelphiji, &#10;započevši svoju karijeru u think tanku Centre for Environmental Studies (CES) u &#10;Londonu. " />
+                        <TextArea layoutX="15.0" layoutY="135.0" prefHeight="142.0" prefWidth="570.0" text="CES je okupljao nekoliko ključnih analitičara suvremene britanske ekonomije, a Massey je među ostalima&#10;uspostavila radno partnerstvo s Richardom Meeganom. &#10;&#10;Nakon što je CES zatvoren, preselila se na akademiju na OU. Nakon istaknute karijere dobila je Prix &#10;Vautrin Lud (‘Nobel de Géographie’) 1998. godine.Doreen Massey je relativno česta medijska &#10;komentatorica, posebice o industrijskim i regionalnim trendovima, a u svojoj ulozi profesorice na OU-&#10;u sudjeluje u nekoliko edukativnih TV programa i pisanju knjiga." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Carl Ritter">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="113.0" fitWidth="161.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/carlritter.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="142.0" layoutY="14.0" prefHeight="114.0" prefWidth="444.0" text="Carl Ritter (Quedlinburg, 7. kolovoza 1779. - Berlin, 28. rujna 1859.), njemački &#10;geograf. Carl Ritter je uz sunarodnjaka Nijemca Alexandera von Humboldta &#10;jedan od osnivača suvremene geografije (i Berlinskog geografskog društva). &#10;&#10;Od 1820. do svoje smrti bio je predstojnik katedre za geografiju na Sveučilištu u &#10;Berlinu." />
+                        <TextArea layoutX="15.0" layoutY="127.0" prefHeight="157.0" prefWidth="569.0" text="1819. godine postao je profesor povijesti na Sveučilištu u Frankfurtu, a 1820. izvanredni profesor &#10;povijesti na Sveučilištu u Berlinu. Također je predavao na obližnjem vojnom koledžu.&#10;&#10;Ritter je svoje remek-djelo Die Erdkunde im Verhältnis zur Natur und zur Geschichte des Menschen &#10;(Znanost o Zemlji u odnosu na prirodu i povijest čovječanstva) u 19 svezaka napisao u razdoblju od &#10;1817. - 1859. Djelo obrađuje u izvanrednoj duljini temu utjecaja prirodne okoline na ljudsku aktivnost. &#10;Unatoč svojoj duljini djelo je ostavljeno nedovršenim u vrijeme Ritterove smrti pokrivajući samo Aziju i &#10;Afriku." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Yi-Fu Tuan">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="123.0" fitWidth="154.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/yi-fu.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="127.0" layoutY="11.0" prefHeight="130.0" prefWidth="459.0" text="Yi-Fu Tuan (Tientsin, Kina, 5. prosinca 1930.), kinesko- američki geograf. &#10;&#10;Tuan je rođen 1930. u Tientsinu. Tuan je pohađao University College, &#10;London, a diplomirao je na Sveučilištu u Oxfordu stekavši titulu bakalaureusa 1951. &#10;i magistra 1955. godine. Odande je otišao u Kaliforniju radi nastavka svojeg &#10;geografskog obrazovanja. Doktorski stupanj stekao je 1957. na Sveučilištu u &#10;Kaliforniji, Berkeley." />
+                        <TextArea layoutX="12.0" layoutY="137.0" prefHeight="140.0" prefWidth="577.0" text="Nakon četrnaest godina na Sveučilištu u Minnesoti preselio se u Madison, Wisconsin, navodivši prijeteću &#10;kob krize srednjih godina koja se naposljetku pokazala blagom. &#10;&#10;Tuan je 1998. godine završio svoju profesionalnu karijeru na Sveučilištu u Wisconsinu, Madison. &#10;&#10;Danas je Yi-Fu Tuan umirovljeni profesor emeritus na Sveučilištu u Wisconsinu, Madison. Drži mnoga &#10;predavanja, a nedavno je objavio knjigu s naslovom Place, Art and Self. Živi u Wisconsinu." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="David Harvey">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="124.0" fitWidth="155.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/davidharvey.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="125.0" layoutY="13.0" prefHeight="127.0" prefWidth="461.0" text="David Harvey (Gillingham, Kent, 1935.), istaknuti profesor antropologije na &#10;Diplomskom centru Gradskog sveučilišta u New Yorku (CUNtY). &#10;&#10;Vodeći je socijalni teoretičar međunarodnog ugleda. Diplomirao je na Sveučilištu u &#10;Cambridgeu gdje je 1961. stekao PhD iz geografije. Utjecaj mu je širok, te se nalazi &#10;među 20 najcitiranijih autora u humanističkim znanostima." />
+                        <TextArea layoutX="13.0" layoutY="142.0" prefHeight="139.0" prefWidth="575.0" text="Štoviše, najcitiraniji je akademski geograf na svijetu (prema Andrewu Bodmanu, vidi Transactions of the &#10;IBG, 1991,1992), te autor mnogih knjiga i eseja značajnih za razvoj moderne geografije kao discipline. &#10;&#10;Njegov rad je uvelike pridonio širokoj društvenoj i političkoj debati, a nedavno je bio zaslužan za &#10;pomaganje u povratku socijalne klase i marksističkih metoda kao ozbiljnog metodološkog oruđa u kritici &#10;globalnog kapitalizma, posebice njegove neoliberalne forme." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Edward Soja">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="117.0" fitWidth="156.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/edward.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="122.0" layoutY="8.0" prefHeight="130.0" prefWidth="464.0" text="Edward William Soja (Bronx, New York City, 1941.), postmodernistički politički &#10;geograf i urbanist. &#10;&#10;Trenutačno je istaknuti profesor urbanog planiranja na fakultetu na UCLA te na &#10;London School of Economics. &#10;&#10;Doktorski stupanj stekao je na Sveučilištu u Sirakuzi. " />
+                        <TextArea layoutX="13.0" layoutY="138.0" prefHeight="152.0" prefWidth="574.0" text="Njegovo rano istraživanje fokusiralo se na planiranje u Keniji.&#10;&#10;Osim osvrta na radove američke feminističke kulturne teoretičarke bell hooks (1952.) i francuskog &#10;intelektualca Michaela Foucaulta (1926. - 1984.), najveći doprinos profesora Eda Soje prostornoj teoriji i &#10;polju kulturne geografije njegova je uporaba rada francuskog marksističkog urbanog sociologa Henrija &#10;Lefebvrea (1901. - 1991.), autora Proizvodnje prostora (1991.). &#10;&#10;Soja fokusira svoju kritičku postmodernističku analizu prostora i društva." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab style="-fx-border-color: red; -fx-background-color: #DEB887;" text="Nigel Thrift">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="129.0" fitWidth="159.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../imgs/thrift.jpg" />
+                           </image>
+                        </ImageView>
+                        <TextArea layoutX="153.0" layoutY="12.0" prefHeight="130.0" prefWidth="447.0" text="Nigel John Thrift (1949.), profesor, trenutačni prorektor Sveučilišta u Warwicku i &#10;vodeći znanstvenik na području antropogeografije.&#10;&#10;Thrift je radio na mnogim sveučilištima uključujući Sveučilište u Aberystwythu, &#10;Wales, Sveučilište u Lampeteru, Wales, Sveučilište u Bristolu i Sveučilište u &#10;Oxfordu." />
+                        <TextArea layoutX="10.0" layoutY="144.0" prefHeight="152.0" prefWidth="580.0" text="Godine 2005. imenovan je za prorektora na Sveučilištu u Warwicku, a položaj je preuzeo u srpnju 2006.&#10;&#10;Profesor Thrift jedan je od vodećih antropogeografa i društvenih znanstvenika u svijetu, te se smatra &#10;zaslužnim za kovanje fraze meka modernost (engl. soft modernity) kao i za osmišljavanje &#10;'nereprezentacionalne teorije'. Dobitnik je mnogih nagrada i priznanja za svoj rad, a 2003. izabran je za &#10;pridruženog člana Britanske akademije.&#10;&#10;Thriftov rad je potaknuo razne angažmane unutar antropogeografije." />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
